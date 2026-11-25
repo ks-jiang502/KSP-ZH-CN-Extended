@@ -1,0 +1,25 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - 'v*'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  package:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Package GameData
+        run: |
+          cd GameData
+          zip -r ../KSP-ZH-CN-Extended-${{ github.ref_name }}.zip KSP-ZH-CN-Extended
+      - name: Create Release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: KSP-ZH-CN-Extended-${{ github.ref_name }}.zip
+          generate_release_notes: true
