@@ -1,821 +1,1515 @@
 # KSP-ZH-CN-Extended DLL UI dictionary
-# format: source<TAB>translation (UTF-8, escaped \t \n \\)
-# entries: 1298
-Error rendering USI-LS window:	渲染 USI-LS 窗口时出错：
-Supplies	补给
-Tourist	游客
-Incorrect SpaceTux Utility Installation	SpaceTux Utility 安装不正确
-test	测试
+# Format: English<TAB>Chinese (escapes: \\ \t \n \r)
+# Entries: 2359
+
+!!! FINISHED !!!	!!! 门
+!!! GATE	!!! 冲 冲 冲 !!!
+!!! GO GO GO !!!	!!!!! 终点线 !!!!!
+!!!!! FINISH LINE !!!!!	!!!!!! 比赛开始！冲 冲 冲 !!!!!!
+!!!!!! RACE ON! GO GO GO !!!!!!	" 预设（来自数据库）。
+" preset from the database.	的库存
+' requires at least Contract Configurator	' 至少需要 Contract Configurator
+'s Inventory	（女声）
+(Female set in)	（纬度
+(Lat.	(基础) *
+(base) *	(天体)
+(body)	(无标签)
+(no tag)	(声望)
+(prestige)	(showIndicator || (RPMPageActive && isIVA()))
+(showIndicator || (RPMPageActive && isIVA()))	(错误信息过多，无法显示)
+(too many error messages to display)	(锁定的子类型信息过多，无法显示)
+(too many locked subtype messages to display)	(警告信息过多，无法显示)
+(too many warning messages to display)	(输入你想使用的按键，
+(type the key you want to use,	)\n贴图：
+)\nTextures:	* 同步组合资源
+* Synchronize combo resources	+10% 尺寸
++10% size	+500 科学
++500 Science	，正在关闭实验
+, shutting down experiment	-10% 尺寸
+-- Danger Zone -- (no confirmation and no undo)	-- 危险区域 --（无确认，无法撤销）
+-10% size	-500 科学
+-500 Science	-灰
+-grey	-星
+-star	。研究
+.  Please upgrade Contract Configurator to use the contracts in this group.	.  请升级 Contract Configurator 才能使用此组中的合同。
+. Research	。旅途平安。
+. Safe journey.	.bak.
+.bak.	.json
+1-2 min	1-2 分钟
+2-5 min	2-5 分钟
+5-10 min	5-10 分钟
+6dcff6	：\r\n需要
+:\r\nNeeds	<IMAGE=
+<Press any key>	<按任意键>
+<color=white>Configuration:	<color=white>当前处理目标：
+<color=white>Current Process Target:	<color=white>重设特质：
+<color=white>Reconfigure Trait:	<color=white>跟踪：
+A new prototype ship is available	AAE
+AAE	ABCORS，aID：
+ABCORS, aID:	AItargetMinimumMissileUpdateInterval
+ALL	全部
+ALL STAGES	任意
+ANY	AQSS 前缀：
+AQSS prefixes:	ASL
+ASL	空中交通管制。请保持本频道畅通，并遵守所有信号灯指示。谢谢。
+ATC. Please keep this channel open and obey all signal lights. Thank you.	ATMO
+ATMO	大气层
+AVAILABLE	可用
+Absolut offset:	累计升级等级：
+Absolute X	绝对 X
+Absolute Y	绝对 Y
+Absolute Z	绝对 Z
+Acc. Upgraded Level:	累积勘探数据
+Accept	接受
+Accumulate Prospecting Data	累积资源
+Accumulated resources	来自 KSC 的动作
+Action from the KSC	激活
+Actions	动作
+Activate April Fools' joke (DANGER!!)	启用 NyanMode™
+Activate Navigation	启用导航
+Activate NyanMode™	本局游戏中启用
+Active	进行中
+Active in this game	ActiveVessel 不在字典中！
+Active kerbal	当前宇航员
+ActiveVessel is not in the dictionary!	作动器
+Actors	执行者
+Add	添加
+Add Crew	添加图片
+Add Custom POI	添加自定义 POI
+Add Image	新增
+Add New	添加节点
+Add Node	添加资源
+Add Resources	加入黑名单
+Add a new beepsource	添加新的提示音源
+Add alarms to KAC	向 KAC 添加警报
+Add all Kopernicus City2 nodes	添加所有 Kopernicus City2 节点
+Add to Blacklist	AddKacAlarms
+Adding new lode entry for asteroid:	正在添加新矿脉条目至
+Adding new lode entry to	高级选项
+Additionally, some	此外，一些
+Adjust filters for chatter audio	调整通讯音效的滤波器
+Advanced mode	高级模式
+Advanced options	空中交通管制，通话结束。
+Air Traffic Control out.	空中竞速
+Air-Racing	对齐前轴
+Airlock volume:	气闸音量：
+Align Forward Axis	对齐右轴
+Align Right Axis	对齐到网格
+Align Spheres	对齐球体
+Align To Grid	对齐上轴
+Align Up Axis	全部模型
 Alignment Flip X Axis	对齐翻转 X 轴
 Alignment Flip Y Axis	对齐翻转 Y 轴
+All	全部
+All Input Locks Cleared	所有输入锁定已清除
+All Models	所有员工都已分配职务。必须先解除分配才能解雇他们。
+All staff are assigned to duties. Staff must be unassigned in order to fire them.	Alpha
 Allow Port Targetting	允许端口瞄准
-DPAI Debug	DPAI 调试
-Draw HUD Icon	绘制 HUD 图标
-Exclude Docked Ports	排除已对接端口
-Force Stock App Launcher	强制使用原版应用启动器
-Restrict Docking Ports	限制对接端口
-Roll Flip Axis	滚转翻转轴
-Show Debug Window	显示调试窗口
-Show HUD Icon in IVA	在 IVA 中显示 HUD 图标
-Target Port	目标端口
-Target Vessel	目标飞行器
-Translation Flip X Axis	平移翻转 X 轴
-Translation Flip Y Axis	平移翻转 Y 轴
-Resource	资源
-Abundance	丰度
-Available	可用
-Available Payload:	可用载荷：
-Cargo Space	货舱空间
-Close	关闭
-CLOSE	关闭
-Depot	仓库
-Destination	目的地
-Destination:	目的地：
-Drag to resize the window.	拖动以调整窗口大小。
-Harvestable Resource	可采集资源
-Harvested	已采集
-Incoming	到达中
-Manage Transfers	管理转移
-None	无
-Origin	起点
-Origin:	起点：
-Outgoing	发出
-Quantity	数量
-Resource:	资源：
-Route	路线
-Total Payload:	总载荷：
-Transfer	转移
-Transfer Amount	转移数量
-Vein	矿脉
-WOLF Dashboard	WOLF 仪表盘
-Incorrect TrackingStationEvolved Installation	TrackingStationEvolved 安装不正确
-Please see KSP's log for additional details	请查看 KSP 日志以获取更多详情
+Alpha	Alpha 曲线
+Alpha Curve	Alpha：
+Alpha:	已勘探
+Already prospected	Alt-
+Alt-	高度
+Alt.	高度 =
+Altitude	高度
+Altitude =	预展开高度
+Altitude predeployment	AltitudeTip
+Altitude:	高度：
+AlwaysUpdate:	环境光遮蔽
+Ambient Occlusion	仅环境光
+Ambient Only	每 12 小时的产量等于生产率乘以当前员工人数。
+Amnt	数量
+Amount produced every 12 hours is production rate multiplied by current number of staff.	每个 Kerbin 日的产量。产量为生产率乘以当前员工人数。
+Amount produced every Kerbin day. production rate is multiplied by current number of staff.	运营中的设施必须有一名常驻管理员。
+An open facility must have one resident caretaker.	变形比例
+Anamorphic Ratio	再喝点咖啡
+And drink some coffee	动画切换后的新界面名称：
+Ang Acc	角加速度
+Angle to	方位角至
+Animation toggled new gui name:	异常信号太弱，靠近后再试
+Anomalous signal too weak, try again when closer	天线范围：
+Antenna Range:	任意
+Any	攻角 =
+AoA =	光圈
+Apoapsis	远地点
+Apoapsis:	远地点：
+Applied changes to object.	应用并关闭
+Apply	应用
+Apply & Close	应用并保存
+Apply & Save	应用滤镜。
+Apply Filter.	应用新范围
+Apply new range	应用设置
+Apply settings	应用到所有对称部件
+Apply to all symmetry counterparts	归档
+Archive	确定要删除吗
+Are you sure you want to delete	确定要删除此存档吗？\n你将失去其中的所有进度和飞船。
+Are you sure you want to delete this save?\nYou will lose all progress and ships in it.	确定要删除此预设吗？
+Are you sure you wish to delete this preset?	面积成本：
+Area cost:	面密度：
+Area density:	预位
+Arm	作为参考
+As Reference	宽高比：
+Aspect Ratio:	指派
+Assign	已指派人员：
+Assigned Staff:	小行星
+Asteroid Not Scanned. Something Went Wrong Here; No Asteroid Was Detected; Distance Passed Through Asteroid:	小行星未扫描……  穿过小行星的距离：
+Asteroid Not Scanned...  Distance Passed Through Asteroid:	已收集小行星科学成果
+Asteroid Science Results Collected	小行星已经过勘探
+Asteroid has already been prospected	小行星已经过勘探。
+Asteroid has already been prospected.	实验室至少需要一名乘员才能进行分析。
+At least one cremember must staff the lab in order to perform the analysis.	大气提示
+Atm	大气
+Atm:	大气：
+AtmTip	大气密度
+Atmo Density	音频效果
+Author:	自动曝光
+Auto Exposure	为BDA自动启用
+AutoQSave_	自动快速存档系统
+AutoUpdateAeroDynamicModel:	自动切断高度（米）：
+Autocut altitude (m):	自动切断高度：
+Autocut altitude:	自动切断速度：
+Autocut speed:	分级时自动预位
+Automatically arm when staging	触地时自动展开
+Automatically deploys on ground contact	自动缩放
+Automatically set the altitude to ground level.	自动将高度设为地面高度。
 B9PartSwitch - Fatal Error	B9PartSwitch - 致命错误
 B9PartSwitch - Locked Subtypes	B9PartSwitch - 锁定的子类型
 B9PartSwitch - Serious Warning	B9PartSwitch - 严重警告
 B9PartSwitch has encountered a fatal error and KSP needs to close.	B9PartSwitch 遇到致命错误，KSP 需要关闭。
 B9PartSwitch has encountered a serious warning. The game will continue to run but this should be fixed ASAP.	B9PartSwitch 遇到严重警告。游戏将继续运行，但应尽快修复。
-Incorrect B9PartSwitch Installation	B9PartSwitch 安装不正确
-Quit	退出
-Some parts have locked subtypes selected.  They have been replaced with the highest priority unlocked subtype	某些部件选择了已锁定的子类型。它们已被替换为优先级最高的未锁定子类型
-Altitude Callouts	高度报读
-Altitude Loss After Takeoff	起飞后高度损失
-Bank Angle	坡度角
-Closure to Terrain	地形接近率
-Descent Rate	下降率
-Final Speed	最终速度
-Gear Alt	起落架高度
-Gear Up	收起起落架
-GPWS Setting	GPWS 设置
-Horizontal Speed	水平速度
-Incorrect GPWS Installation	GPWS 安装不正确
-Retard	收油门
-Rotate	抬轮
-Save	保存
-Shake	抖动
-Stall	失速
-System Enable	系统启用
-Terrain Clearance	地形净空
-Traffic	交通
-Type	类型
-vh Check Alt	vh 检查高度
-Incorrect Kronal Vessel Viewer Installation	Kronal Vessel Viewer 安装错误
-no new ribbons	没有新绶带
-custom ribbons)	自定义绶带）
-days	天
-days mission time	天任务时间
-is available for next mission	可执行下一次任务
-is currently on a mission	当前正在执行任务
-is dead	已死亡
-kerbin	Kerbin
-missions,	次任务，
-ribbons in total (	绶带总数（
-About	关于
-Accumulated Eva Time:	累计 EVA 时间：
-Accumulated Mission Time:	累计任务时间：
-achieved ribbons	已获得绶带
-active	活跃
-Allways use direct texture load (restart required)	始终使用直接纹理加载（需重启）
-AVAILABLE	可用
-available	可用
-Award Ribbon	授予绶带
-Browse Ribbon Codes	浏览绶带代码
-CANCEL	取消
-Completed Missions:	已完成任务：
-Config	配置
-Custom ribbons at space center	航天中心的自定义绶带
-dead	已死亡
-DEAD	已死亡
-Decoration Board window title:	装饰板窗口标题：
-Decorations	装饰
-DETAIL	详情
-DOCKED	已对接
-Docking Operations:	对接操作：
-drawing decoration of board finished	绶带板绘制完成
-drawing of decoration board started (mode=	开始绘制绶带板（mode=
-Enable all	全部启用
-ERROR	错误
-ESCAPING	逃逸中
-Expand ribbons in hall of fame	在名人堂中展开绶带
-Filter:	筛选：
-Final Frontier - written by Nereid (A.Kolster)	Final Frontier - 作者 Nereid (A.Kolster)
-flight only	仅飞行中
-FLYING	飞行中
-Graveyard	墓地
-Hall Of Fame window title:	名人堂窗口标题：
-Hotkey enabled	启用快捷键
-Hotkey: LEFT-ALT +	快捷键：LEFT-ALT +
-ignore this warning	忽略此警告
-In memory of our beloved Cira. We will miss you.	纪念我们深爱的 Cira。我们会想念你。
-INFO	信息
-LANDED	已着陆
-Log Level:	日志级别：
-Log ribbon awards	记录绶带授予
-Logbook	飞行日志
-mark game as updated, because of revocation	因撤销而将游戏标记为已更新
-MISSION	任务
-no kerbal selected	未选择坎巴拉人
-NO RIBBON SELECTED	未选择绶带
-no ribbon selected	未选择绶带
-no ribbons found	未找到绶带
-NONE	无
-Not in a vessel	不在载具内
-Not on EVA	不在 EVA 中
-nothing happened	什么也没发生
-OFF	关闭
-opening decoration board for kerbal	正在为坎巴拉人打开绶带板
-ORBITING	在轨
-Permadeath enabled	已启用永久死亡
-PRELAUNCH	发射前
-press key	按键
-Reset Window Positions	重置窗口位置
-Revocation	撤销
-Revocation of ribbons enabled	已启用绶带撤销
-Ribbons	绶带
-Search:	搜索：
-Select ribbon to award	选择要授予的绶带
-Select ribbons for revocation	选择要撤销的绶带
-Settings:	设置：
-Show Ribbons	显示绶带
-show summary	显示摘要
-Show summary when vessel is recovered	回收载具时显示摘要
-Sort by:	排序方式：
-Space Center	航天中心
-Special thanks to Unistrut for giving permissions to use his ribbon graphics.	特别感谢 Unistrut 授权使用其绶带图像。
-SPLASHED	溅落
-Squeeze science points	榨取科学点
-supersede:	取代：
-superseded ribbons	被取代的绶带
-The First-In-Space and First-EVA-In-Space ribbons are created by SmarterThanMe.	“首次进入太空”和“首次太空 EVA”绶带由 SmarterThanMe 制作。
-The toolbar was created by blizzy78.	工具栏由 blizzy78 制作。
-undecorated	未授勋
-unknown	未知
-Unknown location	未知位置
-Use FAR calculations	使用 FAR 计算
-Use kerbin time	使用 Kerbin 时间
-Use Stock Toolbar (needs a restart to take effect)	使用原版工具栏（需重启生效）
-WARNING	警告
-Warning: Assigning ribbons at space center may not work as expected!	警告：在航天中心授予绶带可能无法正常工作！
-▲ Collapse Group	▲ 折叠组
-▼ Expand Group	▼ 展开组
-Cancel set mode...	取消设置模式...
-Module:	模块：
-No adjustable members found	未找到可调整部件
-Select:	选择：
-Set part	设置部件
-Incorrect KSP_Log Installation	KSP_Log 安装不正确
-Incorrect QuickMods Installation	QuickMods 安装不正确
-Incorrect KSP PartHighlighter Installation	KSP PartHighlighter 安装不正确
-Incorrect Button Manager Installation	Button Manager 安装不正确
-Incorrect VesselViewer Installation	VesselViewer 安装不正确
-calling on FSfuelSwitch tank setup	调用 FSfuelSwitch 油箱设置
-Caps	大写
-clear	清除
-Edit	编辑
-engine	发动机
-engine volume:	发动机音量：
-exists:	存在：
-FS: hover height set to	FS：悬停高度设为
-Hiding this window in	隐藏此窗口倒计时
-hover	悬停
-Hover Climb Rate:	悬停爬升率：
-hover height set to	悬停高度设为
-Hover Off	悬停关
-Hover On	悬停开
-Input Visualizer	输入可视化器
-no such fuel tank setup	无此燃料箱设置
-Show on start	启动时显示
-Stage	分级
-Use hotkey (	使用热键 (
-Yes	是
-Incorrect CommunityTraitIcons Installation	CommunityTraitIcons 安装不正确
-A new resource lode has been discovered and added to your map!	发现新的资源矿脉，已添加到你的地图！
-Abort	中止
-Add to Transfer	加入转移
-Agronomy, ScienceBoost, RepBoost	农学, 科学加成, 声望加成
-Arrival Time	到达时间
-Arrival Time:	到达时间：
-Autopilot, VesselControl, RepBoost, Logistics, Explorer	自动驾驶, 飞船控制, 声望加成, 后勤, 探索者
-Biologist	生物学家
-Biology, ScienceBoost	生物学, 科学加成
-Bulk hire Option: You can not hire any more kerbals at this time!	批量雇佣选项：当前无法再雇佣更多坎巴拉人！
-Bulk hire Selector:	批量雇佣选择器：
-Cancel	取消
-Clear All	全部清除
-Converter, FundsBoost	转换器, 资金加成
-Cost	成本
-Cost:	成本：
-Courage:	勇气：
-Drill, FundsBoost	钻机, 资金加成
-Engineer	工程师
-Expired	已过期
-Expired Tranfers	已过期的转移
-Explorer	探索者
-Farmer	农夫
-Fearless	无畏
-Female	女性
-Fill	填充
-From:	从：
-Geologist	地质学家
-Geology, FundsBoost	地质学, 资金加成
-Insufficient Funds - Cost:	资金不足——成本：
-Is this Kerbal Fearless?	这名坎巴拉人是否无畏？
-Kolonist	殖民者
-Level 5 - Mandatory for Career with no EXP enabled.	5 级——未启用经验值的生涯模式必需。
-Level 5 - Mandatory for Sandbox or Science Mode.	5 级——沙盒或科学模式必需。
-Logistics, RepBoost	后勤，声望加成
-Male	男性
-Mechanic	机械师
-Medic	医生
-Medical, ScienceBoost, RepBoost	医疗，科学加成，声望加成
-Miner	矿工
-Must deploy first!	必须先部署！
-New Transfer	新建转移
-Pending Transfers	待处理转移
-Pilot	飞行员
-Quartermaster	军需官
-Random	随机
-Reason:	原因：
-Recruit new Kerbalnaut	招募新宇航员
-Remove	移除
-Repair, Converter, Drill, Geology, FundsBoost	维修，转换器，钻机，地质学，资金加成
-Repair, FundsBoost	维修，资金加成
-RepBoost, FundsBoost, ScienceBoost	声望加成，资金加成，科学加成
-Resource Lode	资源矿脉
-Resource Quantities	资源数量
-Resume	继续
-Science, Experiment, Botany, Agronomy, Medical, ScienceBoost	科学，实验，植物学，农学，医疗，科学加成
-Scientist	科学家
-Scout	侦察兵
-Select Your Level:	选择你的等级：
-Start Transfer	开始转移
-Status	状态
-Status:	状态：
-Stupidity:	愚蠢度：
-Technician	技术员
-There are no resource lodes available on	以下地点没有可用的资源矿脉：
-This is the only vessel in the current sphere of influence that can participate in Orbital Logisitcs.	这是当前引力范围内唯一能参与轨道后勤的飞行器。
-This transfer exceeds the available payload capacity. Remove some items or increase payload capacity.	该转移超出了可用载荷容量。请移除部分物品或增加载荷容量。
-Too many resource lodes active - Harvest some first!	激活的资源矿脉过多——请先采集一些！
-Total Cost:	总成本：
-Total Mass:	总质量：
-Transit Time:	运输时间：
-Transport Costs	运输成本
-When this option is selected the kerbal might be male or female	选择此选项时，宇航员可能是男性或女性
-is a new type this dialog doesn't support.  Contact kOS devs.	是一种此对话框不支持的新类型。请联系 kOS 开发者。
-Accept	接受
-Backup my scripts first	先备份我的脚本
-Changes to these settings are saved and globally affect all saved games.	对这些设置的更改会被保存，并全局影响所有存档。
-Click to close terminal window.	点击关闭终端窗口。
-Click to open terminal window.	点击打开终端窗口。
-CONFIG VALUES	配置值
-Confirm	确认
-Copy the scripts, don't move them	复制脚本，不要移动它们
-current:	当前：
-Do you really want to use a non-loopback address?	确定要使用非回环地址吗？
-Do you wish to enable the telnet server?	是否启用 Telnet 服务器？
-Emergency Suppress	紧急抑制
-Global VALUES	全局值
-Highlighted CPU has no ElectricCharge.	高亮的 CPU 没有电力。
-Highlighted CPU is turned off.	高亮的 CPU 已关闭。
-Highlighted CPU is turned on and running.	高亮的 CPU 已开启并运行。
-HUD:	HUD：
-ipu:	ipu：
-Keyclicker	按键点击声
-KOS nametag	kOS 名称标签
-kOS script has triggered a Pause Game.  Manual intervention needed to resume.	kOS 脚本已触发暂停游戏。需手动干预才能继续。
-kOS Telnet "Simulate in Background" notice.	kOS Telnet“后台模拟”通知。
-kOS Telnet Non-Loopback Permisssion	kOS Telnet 非回环权限
-kOS Telnet Opt-In Permisssion	kOS Telnet 选择加入权限
-Legacy kOS	旧版 kOS
-Legacy kOS Boot	旧版 kOS 启动
-Migration Dialog	迁移对话框
-No (address will revert to loopback)	否（地址将恢复为回环地址）
-No transmitters available on this vessel or no data to transmit.	该飞行器没有可用的发射器，或没有可传输的数据。
-No, I'll do it myself	不，我自己来
-No, I'll handle it myself	不，我自己处理
-No: start with new default settings	否：以新的默认设置开始
-No: start with new default settings\nand never ask again for this or any other game	否：以新的默认设置开始，\n并且不再为此游戏或任何其他游戏询问
-Okay	好
-part	部件
-Part does not have a kOSProcessor module	部件没有 kOSProcessor 模块
-power\n<starved>	电力\n<不足>
-power\noff	电力\n关闭
-power\non	电力\n开启
-Reread\nBoot\nFolder	重读\n启动\n文件夹
-Reverse Screen	反转屏幕
-Select Dialog	选择对话框
-Telnet address (restart telnet to take effect)	Telnet 地址（重启 Telnet 后生效）
-This is the currently highlighted part on the vessel	这是飞行器上当前高亮的部件
-To access other settings, see the kOS section in KSP's difficulty settings.	要访问其他设置，请参见 KSP 难度设置中的 kOS 部分。
-Visual Beep	视觉提示音
-Yes\n and never show this message again	是\n并且不再显示此消息
-Yes\n just this once	是\n仅此一次
-Yes, and strip "boot" prefixes	是，并去除 "boot" 前缀
-Yes, but don't rename	是，但不重命名
-Yes, Do it!	是，执行！
-Yes: migrate settings	是：迁移设置
-Yes: migrate settings this one time,\nbut never ask again for this or any other game	是：仅此次迁移设置，\n但不再为此游戏或任何其他游戏询问
-You are trying to set the kOS telnet server's IP address to your machine's real IP address of	你正尝试将 kOS Telnet 服务器的 IP 地址设为你机器的真实 IP 地址
-Incorrect KSP ColorPicker Installation	KSP ColorPicker 安装不正确
-modToolbarControl is null	modToolbarControl 为 null
-Both	两者
-For each mod, select which toolbar to put it's button on.	为每个模组选择其按钮放置在哪个工具栏上。
-Hide this window at startup	启动时隐藏此窗口
-Incorrect Toolbar Controller Installation	Toolbar Controller 安装不正确
-Stock	原版
-Toolbar Controller	工具栏控制器
-Toolbar Controller Intro	工具栏控制器介绍
-animation controls	动画控制
-Click	点击
-hatch configuration	舱门配置
-in part	在部件内
-is entering seat	正在进入座位
-IVA animator(s).	IVA 动画器。
-kerbal collider configuration	Kerbal 碰撞体配置
-layer	层
-MeshRenderer controls	网格渲染器控制
-part animator(s).	部件动画器。
-Physics controls	物理控制
-Prop controls	道具控制
-seat controls	座位控制
-shadows configuration	阴影配置
-SkinnedMeshRenderer controls	SkinnedMeshRenderer 控制
-Transform controls	变换控制
-View controls	视图控制
-with	与
-Absolute X	绝对 X
-Absolute Y	绝对 Y
-Absolute Z	绝对 Z
-Active kerbal	当前宇航员
-Advanced mode	高级模式
-bias	偏移
-Bounciness	弹性
-Camera absolute	相机绝对
-Camera forward planet	相机朝前行星
-camera forward surface	相机前向表面
-camera relative	相对相机
-Centrifugal force	离心力
-Colliders	碰撞体
-Coriolis force	科里奥利力
-Current Collider	当前碰撞体
-Current Hatch	当前舱门
-Current MeshRenderer	当前网格渲染器
-Current Props	当前道具
-Current SkinnedMeshRenderer	当前蒙皮网格渲染器
-Current Transform	当前变换
-Disable collisions	禁用碰撞
-Distance from camera to Kerbal IVA	相机到宇航员 IVA 的距离
-Dynamic friction	动摩擦
-Edit Material Render Queue	编辑材质渲染队列
-Edit Shader Render Queue	编辑着色器渲染队列
-Enabled	已启用
-Filter	过滤
-Flight forces (IVA space)	飞行作用力（IVA 空间）
-Flight forces (world space)	飞行作用力（世界空间）
-ForwardSpeed	前向速度
-Found	已找到
-Gravity	重力
-Hatch (	舱门 (
-Helmet	头盔
-Hide	隐藏
-Hide GUI until next launch	隐藏界面直到下次发射
-Hit collider:	命中碰撞体：
-IVA Rot	IVA 旋转
-JumpForce	跳跃力
-Kerbal height	宇航员身高
-Kerbal height with helmet	戴头盔的宇航员身高
-ladder count	梯子数量
-Layer	层
-Main G Internal	主 G 力（内部）
-Main G-Force	主 G 力
-Mass	质量
-Material is null	材质为空
-MeshRenderers	网格渲染器
-Next Collider	下一个碰撞体
-Next Hatch	下一个舱门
-Next MeshRenderer	下一个网格渲染器
-Next Prop	下一个道具
-Next SkinnedMeshRenderer	下一个蒙皮网格渲染器
-Next Transform	下一个变换
-No Colliders	无碰撞体
-No game object	无游戏对象
-No hatches	无舱门
-No internal model found	未找到内部模型
-No internal model found.	未找到内部模型。
-No MeshRenderer	无网格渲染器
-No MeshRenderers	无网格渲染器
-No MeshRenderers matching filter "	无匹配过滤条件 "
-No Props	无道具
-No SkinnedMeshRenderers	无蒙皮网格渲染器
-No transform	无变换
-No Transforms	无变换
-normal bias	法线偏移
-normalizedSpeed:	归一化速度：
-normalizedTime:	归一化时间：
-OnCollisionStay	碰撞持续
-OnMouseDown	鼠标按下
-OnMouseOver	鼠标悬停
-OnMouseUp	鼠标抬起
-Open	打开
-Parent:	父级：
-Part (	部件（
-Part Internal Model Transform	部件内部模型变换
-Position	位置
-Position X	位置 X
-Position Y	位置 Y
-Position Z	位置 Z
-Previous Collider	上一个碰撞体
-Previous Hatch	上一个舱门
-Previous MeshRenderer	上一个 MeshRenderer
-Previous Prop	上一个道具
-Previous SkinnedMeshRenderer	上一个 SkinnedMeshRenderer
-Previous Transform	上一个变换
-Print collisions	打印碰撞信息
-Props	道具
-Quaternion XYZW (INTERNAL cfg):	四元数 XYZW（内部配置）：
-Range	范围
-Rot W	旋转 W
-Rot X	旋转 X
-Rot Y	旋转 Y
-Rot Z	旋转 Z
-Rotation X	旋转 X
-Rotation Y	旋转 Y
-Rotation Z	旋转 Z
-Scale X	缩放 X
-Scale Y	缩放 Y
-Scale Z	缩放 Z
-Select current hatch	选中当前舱门
-Select current MeshRenderer	选中当前 MeshRenderer
-Select current prop	选中当前道具
-Select current SkinnedMeshRenderer	选中当前 SkinnedMeshRenderer
-Select current Transform	选中当前变换
-Selected object	选定对象
-selectedIndex	选中索引
-Show	显示
-SkinnedMeshRenderers	SkinnedMeshRenderer 列表
-Spawn open hatch	生成打开的舱门
-speed:	速度：
-Static friction	静摩擦
-time:	时间：
-Transform Parent	变换父级
-Transform Parent Parent	变换父级的父级
-Transform position	变换位置
-Transforms	变换
-Velocity	速度
-Velocity relative to part	相对部件的速度
-Visible	可见
-All Free	全部免费
-All Goal	全部目标
-All Stop	全部停止
-Attempting to weld to root part!  Cancelling	尝试焊接到根部件！正在取消
-Both weldable ports must be connected to another part!	两个可焊接接口都必须连接到其他部件！
-Close Window	关闭窗口
-Dekonstruct Parts	拆解部件
-Engineer not present in module - Konstruction bonus reduced	模块中没有工程师——Konstruction 加成减少
-Group: Master	分组：主
-Group: None	分组：无
-Group: Slave	分组：从
-Must weld two connected, weldable docking ports!	必须焊接两个相连且可焊接的对接端口！
-Recycler Output:	回收器输出：
-Servo Controller	伺服控制器
-Shutting down magnet - insufficient power!	正在关闭磁铁——电力不足！
-Start KonFabricator!	启动 KonFabricator！
-The vessel must have at least four parts to perform welding!	飞行器必须至少拥有四个部件才能进行焊接！
-This port is the root part!  Cancelling	该端口是根部件！正在取消
-You cannot weld the root part!	你无法焊接根部件！
-You load a bunch of rocks and dirt into the counterweight	你把一堆岩石和泥土装进配重块
-You remove a bunch of rocks and dirt from the counterweight	你把一堆岩石和泥土从配重块中取出
-Incorrect Probe Control Room Installation	Probe Control Room 安装不正确
-from	从
-from pre-loaded configs	来自预加载配置
-preload	预加载
-Waypoint	航点
-waypoint	航点
-Activate Navigation	启用导航
-Active	进行中
-Add all Kopernicus City2 nodes	添加所有 Kopernicus City2 节点
-All	全部
-Altitude	高度
-Angle to	方位角至
-Apply	应用
-Automatically set the altitude to ground level.	自动将高度设为地面高度。
+B9PartSwitch_SwitchInFlight	B9PartSwitch_飞行中切换警告
+B9PartSwitch_SwitchInFlightWarning	基地
+BASE	BDA自动目标
+BODY:	点火
+BURN	后退
+Back	营房
+Background	背景
 Background Display (grey scale)	背景显示（灰度）
 Background Display Opacity	背景显示不透明度
-Calculates distance as the horizontal distance only.  Useful if you're looking to hit a landing spot exactly.	仅按水平距离计算。适合需要精确命中着陆点的情况。
-Calculates distance in a direct line.	按直线距离计算。
-Cancel Import of Custom Waypoints	取消导入自定义航点
-Cancel Set Location	取消设置位置
-Celestial Body	天体
-colored markers do NOT have the selected color applied)	彩色标记不会应用所选颜色)
-Compromise	折中
-Contract	合同
-Coordinates of	坐标：
-Coordinates of target	目标坐标
-Create Custom Waypoint	创建自定义航点
-Custom File Help	自定义文件帮助
-Custom Waypoint Selection	自定义航点选择
-Custom WP Help	自定义航点帮助
-Deactivate Navigation	停用导航
-Decimal	十进制
-Delete Custom Waypoint	删除自定义航点
-Delete Waypoint	删除航点
-Delete waypoint '	删除航点 '
-Display all waypoints on the given celestial body while in flight.	飞行中显示指定天体上的所有航点。
-Display only the active waypoint while in flight.	飞行中仅显示当前航点。
-Dist:	距离：
-Distance calculation	距离计算
-Distance to	距离至
-Distance to target	至目标距离
-Do not display any waypoints while in flight.	飞行中不显示任何航点。
-Edit Custom Waypoint	编辑自定义航点
-Edit Waypoint	编辑航点
-ETA to	预计到达至
-Export Custom Waypoints	导出自定义航点
-Exported	已导出
-Failed to load icon:	加载图标失败：
-Glide slope angles	下滑道角度
-Group by:	分组依据：
-Heading to	正前往
-Heading to target	正前往目标
-Hide Stock Waypoint	隐藏原版航点
-Icon Selector	图标选择器
-Import	导入
-Import Custom Waypoints	导入自定义航点
-Imported	已导入
-Incorrect WaypointManager Installation	WaypointManager 安装不正确
-key:	键：
-Lat:	纬度：
-Lateral	横向
-Latitude	纬度
-Location display style	位置显示样式
-Lon:	经度：
-Longitude	经度
-marker	标记
-No contract	无合同
-No new waypoints found to import	未找到可导入的新航点
-Overwrite custom waypoint file '	覆盖自定义航点文件 '
-Overwrite export file?	覆盖导出文件？
-path:	路径：
-Remove all Kopernicus City2 nodes	移除所有 Kopernicus City2 节点
-Reset	重置
-Reset Display Position	重置显示位置
-Set Location on Map	在地图上设置位置
-Set the location by clicking on the map.	在地图上点击以设置位置。
-Set the location parameters to that of the currently active vessel.	将位置参数设为当前活动飞行器的位置。
-Settings	设置
-Straight line	直线
-Time to target	到达目标时间
-UI Scaling (	界面缩放 (
-Use Active Vessel Location	使用活动飞行器位置
-Use terrain height for altitude	使用地形高度作为海拔
-Values to display below altimeter	高度表下方显示的值
-Velocity pitch angle:	速度俯仰角：
-Waypoint Manager	航点管理器
-Waypoint Manager Settings	航点管理器设置
-Waypoint Opacity	航点不透明度
-WaypointManager: Couldn't create texture for '	WaypointManager：无法为 ' 创建纹理
-Waypoints to display in-flight	飞行中显示的航点
-Incorrect NavBall Docking Alignment Indicator CE Installation	NavBall Docking Alignment Indicator CE 安装不正确
-contracts successfully.	个合同成功。
-has been killed!	已阵亡！
-Message	消息
-out of	 / 
-' requires at least Contract Configurator	' 至少需要 Contract Configurator
-to work, and you are running version	才能工作，而您当前运行的版本为
-.  Please upgrade Contract Configurator to use the contracts in this group.	.  请升级 Contract Configurator 才能使用此组中的合同。
-Actions	动作
-Actors	执行者
-Body	天体
-Cameras	摄像机
-Clearing previously loaded contract configuration...	正在清除先前加载的合同配置……
-Contract Balancing	合同平衡
-Contract Configurator: Loaded	Contract Configurator：已加载
-Contract failed	合同失败
-Contract Type	合同类型
-Cut Scene Configurator	过场动画配置器
-Debug Log	调试日志
-default	默认
-Delete	删除
-Delete Cut Scene Action	删除过场动画动作
-Dialog Box Light	对话框亮色
-Disabled Item	禁用项
-Down	下
-empty	空
-Enter the altitude above the terrain.	输入高于地形的高度。
-Force Contract Generation	强制生成合同
-Height	高度
-If checked, moves to the next action before waiting for this one to complete.	勾选后，将在等待此动作完成前先进入下一个动作。
-Jump to Camera Position	跳转到摄像机位置
-Legend:	图例：
-Load Passengers?	加载乘客？
-Loaded	已加载
-Loading contract configuration (	正在加载合同配置（
-Loading CONTRACT_TYPE nodes.	正在加载 CONTRACT_TYPE 节点。
-Location	位置
-Met Requirement	已满足要求
-Name	名称
-New	新建
-none	无
-PQS City	PQS 城市
-PQS Offset	PQS 偏移
-Reload Contracts	重新加载合同
-Reloading contracts...	正在重新加载合同...
-Reloading game database...	正在重新加载游戏数据库...
-Reloading module manager...	正在重新加载 Module Manager...
-Set Position to Current	将位置设为当前位置
-Sucessfully loaded	加载成功
-The contract group '	合同组 '
-tip	提示
-Kerbal Telemetry	Kerbal 遥测
-Port	端口
-Server Toggle	服务器开关
-Cancel load operation	取消载入操作
-Dangerous Condition Alert	危险状况警报
-Incorrect Science Alert Installation	Science Alert 安装不正确
-It looks dangerous out there. Are you sure you want to send someone out? They might lose their grip!	外面看起来很危险。你确定要派人出去吗？他们可能会失手！
-No, it would be a PR nightmare	不，那会是公关灾难
-Science is worth a little risk	科学值得冒一点风险
-INITIALIZATION ERROR, CHECK CONFIGURATION.	初始化错误，请检查配置。
-clips)	片段)
-Filters	滤波器
-removed from beepsource_list	已从 beepsource_list 移除
-volume:	音量：
-1-2 min	1-2 分钟
-2-5 min	2-5 分钟
-5-10 min	5-10 分钟
-Add	添加
-Add a new beepsource	添加新的提示音源
-Adjust filters for chatter audio	调整通讯音效的滤波器
-Airlock volume:	气闸音量：
-Background	背景
-Background sample file name	背景样本文件名
 Background Sample Selector	背景样本选择器
+Background sample file name	背景样本文件名
 Background sounds only in IVA	背景音仅在 IVA 中播放
+Base Manager	基地状态
+Base Status	基地无法打开或关闭
+Base cannot be opened or closed	基地已开放
+Base is Open	基地
+Bases	只能在距离基地 5km 以内时于基地处打开或关闭基地。
+Bases can only be opened or closed at the base when within 5km of the base.	基础轨道数据
+Basic Orbital Data	将网格绑定到部件
 Beep	提示音
 Beep frequency:	提示音频率：
 Beep pitch:	提示音音高：
 Beep sample:	提示音样本：
 Beep timing:	提示音时序：
 Beep volume:	提示音音量：
-beeps	提示音
 Beeps	提示音
+Bind Grid To Part	绑定按键
+BindKey	生态区：
+Biome:	混合遮罩
+Blizzy	已屏蔽！
+Bloaked!	屏蔽 SPH
+Block SPH	屏蔽 VAB
+Block VAB	屏蔽 VAB：
+Block VAB:	全部屏蔽
+Block all	泛光
+Bloom	蓝色曲线
+Blue	蓝色
+Blue Curve	蓝：
+Blue:	蓝色曲线
+Body	天体
+BodyFixedMode:	方框
+Both	两者
+Bounciness	弹性
+Box	亮度
 Breath volume:	呼吸音量：
+Build Engineer Overlay:	构建叠加层
+Build Overlay	BuildAdvanced.DrawAtmosphericDetails()
+BuildAdvanced.DrawAtmosphericDetails()	BuildAdvanced.OnGUI()
+BuildAdvanced.OnGUI()	BuildAdvanced.Window()
+BuildAdvanced.Window()	商业
+Burn time	燃烧时间
+Button	常规按钮
+Buy for:	买卖这些资源：
+Buy or sell these resources:	购买倍率：
+Buying mult:	生涯
+CAREER	CDST
+CDST	清除 ！！！
+CLEAR !!!	清空控制台
+CLEAR CONSOLE	点击打开
+CLICK TO OPEN	关闭编辑器
+CLOSE	关闭
+CLOSE EDITOR	紧凑
+COMPACT	合同组
+CONTRACT_GROUP	合同类型
+CONTRACT_TYPE	控制栏
+CONTROL BAR	成本
+COST	CRFT
+CRFT	CTL + H
+CTL + H	CUST
+CUST	CUSTOM_WAYPOINTS
+CUSTOM_WAYPOINTS	CVEL
+CVEL	正在计算颜色数据
+Calculates distance as the horizontal distance only.  Useful if you're looking to hit a landing spot exactly.	仅按水平距离计算。适合需要精确命中着陆点的情况。
+Calculates distance in a direct line.	按直线距离计算。
+Calculating color data	正在计算颜色数据：
+Calculating color data:	正在计算高度差
+Calculating height difference	计算模式：
+Calculations mode:	相机修正倍率：
+Cam fix multiplier:	相机惯性
+Camera absolute	相机绝对
+Camera forward planet	相机朝前行星
+Cameras	摄像机
+Can prospect	巡航飞行控制器禁用时无法选择航点
+Can't pick waypoint when the Cruise Flight controller is disabled	巡航飞行控制器禁用时无法选择目标
+Can't select target when the Cruise Flight controller is disabled	巡航飞行控制器禁用时无法选择航点
+Can't select waypoint when the Cruise Flight controller is disabled	CanBeDeflated：模块可放气。
+CanBeDeflated: Module can be deflated.	CanBeDeflated：模块内有乘员，无法放气。
+CanBeDeflated: Module has crew aboard, cannot be deflated.	CanBeDeflated：检测到资源，请求确认放气模块。
+CanBeDeflated: Resources detected, requesting confirmation to delfate the module.	取消 - 不更改
+Cancel	取消
+Cancel - No change	找不到合适的模板。
+Cancel Import of Custom Waypoints	取消导入自定义航点
+Cancel Set Location	取消设置位置
+Cancel load operation	取消载入操作
+Cancel set mode...	取消设置模式...
+Cannot find a suitable template.	找不到任何终点线。
+Cannot find any finish lines.	找不到任何起点线。
+Cannot find any start lines.	无法重新配置。请为模块配备乘员或进行舱外活动。
+Cannot reconfigure. Either crew the module or perform an EVA.	无法推出飞行器。请先清空道路！
+Cannot roll craft out. Clear the way first!	模块充气前无法开灯。
+Cannot turn on the lights until the module is inflated.	无法升级。请为飞船配备乘员或进行舱外活动。
+Cannot upgrade. Either crew the vessel or perform an EVA.	外壳成本：
+Caps	大写
+Case cost:	外壳质量：
+Case mass:	外壳贴图：
+Case texture:	类别
+Category:	天体
+Celestial Bodies	中心
+Celestial Body	天体
+Celestial bodies	天体
+Center	中心X
+CenterX	中心Y
+CenterY	几何中心
+Centrifugal force	离心力
 Change	更改
-chatter	通话
+Change material	切换到编辑模式
+Change to Edit Mode	切换到选择模式
+Change to Select Mode	字符上限
+Character limit	充电目标
 Chatter	通讯音
 Chatter Filters	通讯音滤波器
 Chatter frequency:	通讯音频率：
 Chatter volume:	通讯音音量：
+Cheat Spot Here	检查按钮
+Choose Crew	选择材质
+Choose material	色差
 Chorus	合唱
 Chorus delay in ms	合唱延迟（毫秒）
 Chorus modulation depth	合唱调制深度
 Chorus modulation rate in Hz	合唱调制速率（Hz）
+Chromatic Aberration	降落伞最高温度：
+Chute max temperature:	降落伞模型：
+Chute model:	降落伞贴图：
+Chute texture:	降落伞：
+Chutes:	城市灯光
+City Lights	城市灯光
+Clamp	清除筛选
 Clear	清除
-Clear insta-chatter key	清除即时通讯音按键
+Clear All	全部清除
+Clear Filters	清除粒子
+Clear Particles	清除节点
+Clear all nodes	清除所有节点
 Clear insta-SSTV key	清除即时 SSTV 按键
+Clear insta-chatter key	清除即时通讯音按键
+Clearing config file...	正在清除配置文件……
+Clearing previously loaded contract configuration...	正在清除先前加载的合同配置……
+Click	点击
+Click Through Blocker Focus Setting	点击穿透阻止器焦点设置
+Click To Open	点击 [
+Click [	点击目的地以接收实验。按 ESC 键取消。
+Click a destination to receive the experiment. Press the ESCAPE key to cancel.	再次点击以确认创建实验。
+Click again to confirm experiment creation.	再次点击以确认重新配置。
+Click again to confirm reconfiguration.	点击按键进行编辑，拖动可移动，右键可删除
+Click on a key to edit it. Drag a key to move it. Right click to delete it	点击上方按钮显示附近可用设施列表。
+Click the button above to display a list of nearby operational facilities.	点击，按键代码：
 Click to apply	点击应用
 Click to change the current beep sample	点击更换当前提示音样本
 Click to change the selected sample	点击更换所选样本
 Click to skip to a new random soundscape	点击跳到新的随机音景
+Clicking, keyCode:	关闭基地，时长
+Close	关闭
+Close Base for	关闭值：
+Close Value:	关闭，时长
+Close Window	关闭窗口
+Close for	已关闭
+Closed	已关闭并锁定
+Closest Anomaly ID:	最近异常名称：
+Closest Anomaly Name:	最近ROC ID：
+Closest ROC ID:	最近ROC名称：
+Closest ROC Name:	质心
+CoM	颜色
+Colliders	碰撞体
+Color	色彩分级
+Color Grading	颜色贴图
+Color Map	色彩饱和度
+Color Saturation	颜色：A
+Color: A	颜色：B
+Color: B	颜色：G
+Color: G	颜色：R
+Color: R	颜色滤镜
+Colored	合并模式
+Combine Mode	彗星
+Comet	紧凑模式折叠为：
+Compact mode collapses to the:	兼容性检查器
+Compromise	折中
+Conclusion: Failure!	结论：成功！
+Conclusion: Success!	配置存储
+Configure Storage	确认加入黑名单按钮
+Confirm	确认
+Confirm blacklisting button	确认合同冲突
+Confirmation Needed	控制台界面未绘制 - 非当前飞船
+ConsoleGUI not drawn - not active vessel	恒定
 Continuous	连续
+Contract	合同
+Contract Balancing	合同平衡
+Contract Configurator	合同配置器
+Contract Configurator: Loaded	Contract Configurator：已加载
+Contract Type	合同类型
+Contract failed	合同失败
+Control From Here	控制模式
+Controller Value vs Color	控制器值与常量
+Controller Value vs Constant	控制器值与高值颜色
+Controller Value vs High Color	控制器值与高值常量
+Controller Value vs High Constant	控制器值与低值颜色
+Controller Value vs Low Color	控制器值与低值常量
+Controller Value vs Low Constant	控制器名称
+Controller name	控制器类型
+Controller type	控制
+Converter stopped. Lode is depleted.	转换器名称
+Coordinates of	坐标：
+Coordinates of target	目标坐标
 Copy	复制
+Copy Chorus	复制合唱
+Copy Dist	复制失真
+Copy Echo	复制回声
+Copy HiPass	复制高通
+Copy LoPass	复制低通
+Copy Position	复制偏移
+Copy Reverb	复制混响
 Copy all	全部复制
 Copy all filter values to clipboard	将所有滤波器值复制到剪贴板
 Copy beepsource to clipboard	将提示音源复制到剪贴板
-Copy Chorus	复制合唱
 Copy chorus values to clipboard	将合唱值复制到剪贴板
-Copy Dist	复制失真
 Copy distortion values to clipboard	将失真值复制到剪贴板
-Copy Echo	复制回声
 Copy echo values to clipboard	将回声值复制到剪贴板
 Copy highpass values to clipboard	将高通值复制到剪贴板
-Copy HiPass	复制高通
-Copy LoPass	复制低通
 Copy lowpass values to clipboard	将低通值复制到剪贴板
-Copy Reverb	复制混响
+Copy offsets	复制输出
+Copy out	复制到剪贴板
 Copy reverb values to clipboard	将混响值复制到剪贴板
+Copy to clipboard	复制到其他降落伞
+Copy to others chutes	复制到对称部件
+Copy to symmetry counterparts	雇佣下一名坎巴拉人的费用：
+Coriolis force	科里奥利力
+Cost to hire next kerbal:	无法获取活动连接！
+Cost:	成本：
+Could not get active joints!	无法切换模块。
+Could not switch the module.	此飞行器上找不到任何效果模块，请先通过配置文件添加模块再使用此编辑器。
+Couldn't find any effects modules on this craft, add modules via config before using this editor..	飞行器设置
+Craft settings	创建航点
+Create Custom Waypoint	创建自定义航点
+Create Maneuver Node at Ap	在远地点创建机动节点
+Create Maneuver Node at Pe	在近地点创建机动节点
+Create Waypoint	创建一个航点
+Create a Waypoint	请先创建并放置本地组，然后重试！
+Create and place a local Group, then try again!	创建远地点节点
+Creates a maneuver node to put the current vessel into the resonant orbit	创建一个机动节点，使当前飞行器进入共振轨道
+Creating new config...	正在创建新配置……
+Cross a start line to begin a race.	亚轨道飞行时无法使用巡航控制。
+Cruise Control isn't supported while the vessel is sub-orbital.	Ctrl
+Ctrl	剔除黑色
+Current Ap (<<1>>)	当前远地点 (<<1>>)
+Current Collider	当前碰撞体
+Current Colour	当前发射场：
+Current Hatch	当前舱门
+Current Launchsite:	当前发射场：KSC 发射台
+Current Launchsite: KSC LaunchPad	当前发射场：KSC 跑道
+Current Launchsite: KSC Runway	当前配置：
+Current MeshRenderer	当前网格渲染器
+Current Pe (<<1>>)	当前近地点 (<<1>>)
+Current Profile:	当前场景：
+Current Props	当前道具
+Current Scene:	当前伞温：
+Current SkinnedMeshRenderer	当前蒙皮网格渲染器
+Current Transform	当前变换
+Current chute temperature:	当前游戏既不是生涯模式也不是科学沙盒。
+Current game is neither career nor science sandbox.	当前材质：
+Current material:	当前：
 Current preset:	当前预设：
 Current skin	当前皮肤
+Current:	当前远地点
+Currently using	曲线
+Curve	不支持曲线模式参数
+Curve mode parameters are not supported	曲线范围
+Custom	自定义航点。
+Custom File Help	自定义文件帮助
+Custom WP Help	自定义航点帮助
+Custom Waypoint Selection	自定义航点选择
+CustomWaypoints.	切换部件尺寸
+Cut Scene Configurator	过场动画配置器
 Cutoff freq:	截止频率：
+Cycle part size	危险
+DANGER	删除区段
+DCoM offset	DCoM 偏移
+DCoM offset readout	DCoM 偏移读数
+DELETE SECTION	ΔV
+DELTA-V	DM 数据传输
+DMagic Orbital Science Survey Parameter Complete	完成
+DONE	DST
+DPAI Debug	DPAI 调试
+DST	正在停用巡航控制，飞行器已达到燃料储备量。
+Dangerous Condition Alert	危险状况警报
+Deactivate Navigation	停用导航
+Deactivating Cruise Control, vessel has reached its fuel reserve level.	正在停用巡航控制，飞行器推进剂已耗尽。
+Deactivating Cruise Control, vessel has run out of propellant.	残骸
+Debris	调试：勘探结果已保证
+Debug Log	调试日志
 Debug Mode	调试模式
+Debug: Prospect is guaranteed	小数位数
 Decay HF ratio:	高频衰减比：
 Decay ratio:	衰减比：
 Decay time:	衰减时间：
+Decimal	十进制
+Decimal places	降低垂直速度
 Default	默认
-delay	延迟
+Default Grass Preset:	默认状态：
+Default Jetpack Power:	默认喷气背包功率：
+Default Precision Jetpack Power:	默认精确喷气背包功率：
+Default State:	默认下降为逆推：
+DefaultDescentIsRetro:	默认发射台变换
 Delay:	延迟：
-density	密度
+Delete	删除
+Delete Custom Waypoint	删除自定义航点
+Delete Cut Scene Action	删除过场动画动作
+Delete Instance	删除预览
+Delete Preview	删除存档
+Delete Save	删除现有文件
+Delete Waypoint	删除航点
+Delete existing file	删除预设
+Delete preset	删除路径
+Delete waypoint '	删除航点 '
 Density:	密度：
-depth	深度
+Deploy on ground contact:	展开直径 (m)：
+Deployed diameter (m):	展开直径：
+Deployed diameter:	展开高度
+Deployment altitude	展开于
+Deployment in	展开安全性：危险
+Deployment safety: dangerous	展开安全性：有风险
+Deployment safety: risky	展开安全性：安全
+Deployment safety: safe	展开速度 (s)：
+Deployment speed (s):	展开速度：
+Deployment speed:	展开计时器：
+Deployment timer:	景深
+Depth Of Field	描述
 Depth:	深度：
-diffusion	扩散
+Description:	取消选择
+Deselect All	摧毁
+Destroy	摧毁组
+Destroy Group	正在断开连接：
+Destroying link between	扩散
+Dialog Box Light	对话框亮色
 Diffusion:	扩散：
-directory name	目录名称
+Direction	方向
+Dirt Intensity	污渍纹理
+Dirt Texture	污渍纹理
+Disable	禁用
+Disable Mod	着陆、溅落或坠毁时禁用标签
+Disable all joints	禁用所有关节
 Disable beeps during chatter	通话时禁用提示音
+Disable collisions	禁用碰撞
+Disable tag on landing, splashdown or crash	回退时禁用标签
+Disable tag on revert	回收飞行器时禁用标签
+Disable tag on vessel recovery	因切换到数值输入，正在禁用速度自由移动模式。
 Disabled	已禁用
+Disabled Item	禁用项
+Disabling speed free move mode due to switching to numeric inputs.	显示字段选择窗口
+Display Field Selection Window	显示 HTML 模板选择窗口
+Display HTML Template Selection Window	显示图像选择窗口
+Display Image Selection Window	显示图像查看器窗口
+Display Image Viewer Window	显示屏幕消息窗口
+Display Screen Messages Window	显示完整轨迹：
+Display all waypoints on the given celestial body while in flight.	飞行中显示指定天体上的所有航点。
+Display only the active waypoint while in flight.	飞行中仅显示当前航点。
+DisplayCompleteTrajectory:	显示栈->窗口
+DisplayStack->Window	显示栈TS->窗口
+DisplayStackTS->Window	显示轨迹：
+DisplayTrajectories:	飞行中显示轨迹：
+DisplayTrajectoriesInFlight:	可显示行数：
+Displayable Rows:	距离升级等级：
 Dist	失真
+Dist. Upgraded Level:	距离
+Dist:	距离：
+Distance calculation	距离计算
+Distance from camera to Kerbal IVA	相机到宇航员 IVA 的距离
+Distance to	距离至
+Distance to Finish Line:	距下一道门距离：
+Distance to Next Gate:	距起点线距离：
+Distance to Start Line:	到观测点的行驶距离：
+Distance to target	至目标距离
+Distance travelled for spot:	俯冲轨道
 Distortion level:	失真级别：
 Distortion value	失真值
+Dive orbit	俯冲轨道
+Do not display any waypoints while in flight.	飞行中不显示任何航点。
+Dogfight %:	空战偏移模式
+Door Invoked	双左箭头
+Down	下
+Drag coefficient:	拖动分区可重新定位，右键拖动可调整大小，Alt+中键可编辑
+Drag the section to reposition, right-click-drag to resize, Alt+MMB to edit	已绘制
+Drag to resize the window.	拖动以调整窗口大小。
+Draw Circles	绘制圆圈
+Draw HUD Icon	绘制 HUD 图标
+Draw Spheres	绘制球体
+Drawn	投放飞行器
+Drop Vessel	倾卸资源
 Dry level:	干声电平：
+Dry mass	干质量
 Dry mix:	干声混合：
+Dump Resources	复制
+Dynamic friction	动摩擦
+EDIT	编辑按键绑定
+EDIT KEY BINDINGS	编辑灯光
+EDIT LIGHT	编辑材质
+EDIT MATERIAL	编辑粒子
+EDIT PARTICLES	编辑分区 –
+EDIT SECTION –	已启用
+ENABLED	舱外活动
+ETA to	预计到达至
+EVA Enhancements - Settings	EVA Enhancements - 设置
+EVAs	阅后请吃掉本报告
 Early reflections level relative to room effect	早期反射电平（相对于房间效果）
+Eat this report after reading	编辑颜色
 Echo	回声
 Echo decay per delay	每次延迟的回声衰减
 Echo delay in ms	回声延迟（毫秒）
+Edit	编辑
+Edit Color	编辑组
+Edit Custom Waypoint	编辑自定义航点
+Edit Groups	编辑地图贴花
+Edit MapDecals	编辑模型配置
+Edit Material Render Queue	编辑材质渲染队列
+Edit Model Config	编辑此组。
+Edit Shader Render Queue	编辑着色器渲染队列
+Edit Waypoint	编辑航点
+Edit this Group.	编辑此实例。
+Edit this instance.	编辑按键绑定
+Editor Mode:	效果名称
+Effect Name	效果父级 [必填]
+Effect Parent [required]	效果：
+Effect:	电容量
+ElectricCharge required to deploy this parachute	发射率常数：
+Emissivity constant:	启用碰撞体
 Enable	启用
+Enable Colliders	启用模组
+Enable Debug Level Logging	启用调试级日志
+Enable Mod	启用随机图像
+Enable Random Images	启用跟踪
+Enable Tracking	启用显示轨迹快捷键修饰键：
+Enable occlusion modifiers for vacuum and atmospheres	为真空和大气启用遮挡修正
+EnableDisplayTrajectoryHotKeyMod:	EnableKopernicusShadowManager：是否运行内部 Kopernicus 阴影系统。默认开启。
+EnableKopernicusShadowManager: Whether or not to run the Internal Kopernicus Shadow System. True by default.	启用主界面快捷键修饰键：
+EnableMainGUIHotKeyMod:	发动机
+Enabled	已启用
+Engine	发动机 ID
+Engine ID	发动机ID
+Engine forces count:	发动机力计入：
+EngineID Field Name	工程师重新打包所需最低等级：
+Engineer	工程师
+Engineer minimum level to repack:	输入按钮标识：
+Enter Button identity:	输入导出黑名单名称
+Enter Export Blacklist Name	输入所需快捷键：
+Enter desired hotkey:	输入所需标签：
+Enter desired tag:	输入文件名（不含后缀）：
+Enter file name (no suffix):	输入名称：
+Enter name:	输入新名称：
+Enter new Name:	环境研究所
+Enter the altitude above the terrain.	输入高于地形的高度。
+Environmental Institute	环境研究所模式选择
+Environmental Institute Mode Selection	装备
+Error	添加到按钮阻止列表时出错
+Error adding to button block list	尝试调用自定义绘制控制器方法时出错：
+Error creating config	创建配置时出错
+Error while trying to invoke a custom draw controller method:	错误！
+Error!	事件
+Event	事件名称
+Event Name	事件持续时间
+Event duration	事件：
+Event:	事件捕获设置
 Every	每隔
 Every vessel will keep its own individual settings	每艘飞船将保留各自的独立设置
+Evt Capture Settings	事件暂停设置
+Evt Pause Settings	事件截图设置
+Evt Screenshot Settings	执行机动
+Exclude Docked Ports	排除已对接端口
+Execute maneuver	执行机动
+Existing experiment will be removed. Click a second time to confirm.	现有资源将被移除。再次点击以确认倾卸资源。
+Existing resources will be removed. Click a second time to confirm resource dump.	现有资源将被移除。再次点击以确认切换。
+Existing resources will be removed. Click a second time to confirm switch.	现有资源将被移除。再次点击以确认。
+Existing resources will be removed. Click a second time to confirm.	实验清单
+Experiment Manifest	实验结果：失败！
+Experiment Results: Failed!	实验结果：成功！
+Experiment Results: Success!	实验：
+Experiment:	实验清单锁定
+ExperimentRequirementsMet called	导出
+Export	将所有内容导出为 zip 文件
+Export Custom Waypoints	导出自定义航点
+Export everyting into zip files	导出的模板名称
+Exported	已导出
+Exported template name	正在导出星球贴图：颜色
+Exporting planet maps: Color	正在导出星球贴图：高度
+Exporting planet maps: Height	正在导出星球贴图：法线
+Exporting planet maps: Normal	曝光
+External LUT	外部温度
+External Temperature	外部LUT
+Eye Adaption	飞行工程师 1.1.9.5
+FLIGHT ENGINEER 1.1.9.5	FLOAT
+FLOAT	FMRS
+FMRS	FPA
+FPA	FPA =
+FPA =	前
+FS: hover height set to	FS：悬停高度设为
+FWD	设施编辑器
+Facility Editor	设施管理器
+Facility Manager	设施类型：
+Facility Type:	设施已满。
+Facility is full.	设施人员已满。
+Facility is fully staffed.	设施名称：
+FacilityName:	无法将科学数据加入容器！
+Failed to add science to container!	生成ILS配置失败——请查看日志
+Failed to generate ILS config - check logs	移除活动按钮失败
+Failed to load icon:	加载图标失败：
+Failure to remove activeButton	远处混合距离
+Fast Mode	功能仍在开发中
+Feature still WIP	文件时间
+File Time	文件将保存到存档目录
+Files will be saved in the save directory	筛选选择
+Filter	过滤
+Filter Selection	筛选依据
+Filter by	筛选帮助窗口
+Filter:	筛选：
+Filters	滤波器
+Final Stretch!	寻找科学点
+Find Science Spot	开火
+Fire	裂变引擎图标
 First	第一
+Flags	飞行工程师生涯限制：
+Flight Engineer Career Limitations:	飞行工程师工具栏图标：
+Flight Engineer Toolbar Icon:	飞行工程师激活方式：
+Flight Engineer activation mode:	飞行工具
+Flight Tools	浮动曲线
+Flight forces (IVA space)	飞行作用力（IVA 空间）
+Flight forces (world space)	飞行作用力（世界空间）
+Float Curve	焦距
+Focal Length	对焦距离
+Focus Distance	聚焦目标
+Focus Target	聚焦飞行器
+Focus Vessel	页脚配置
+Focus-Follows-Click	焦点跟随点击
+Focus-Follows-Mouse	焦点跟随鼠标
+Focus-Follows-Mouse, meaning that the focus was on whatever window the mouse was	焦点跟随鼠标，即焦点位于鼠标所在的窗口
+Focused Body Only	仅聚焦天体
+Footer Config	前进
+For each mod, select which toolbar to put it's button on.	为每个模组选择其按钮放置在哪个工具栏上。
+Force Contract Generation	强制生成合同
+Force Refresh	强制刷新
+Force Stock App Launcher	强制使用原版应用启动器
+Forward	第四颜色：
+ForwardSpeed	前向速度
+Found	已找到
+Fourth Color :	第四纹理
+Fourth Texture	第四纹理平铺：
+Fourth Texture Tiling:	FreeIVA
+FreeIVA	自由视角阈值
+Fuel Tanks	燃料输入
+Fuel mass	燃料质量
+Full Mode	资金
+Funds	聚变引擎图标
+FwdPos	GUI
+GUI	界面大小：
+GUI Size:	增益
+Gain	游戏时间
+Game Time	GameData
+Gamma	起落架
+Gear	常规设置
+General Settings	常规：
+General:	生成模块并\n复制到剪贴板
+Generate Module and \ncopy to clipboard	从\n生成模板并复制到剪贴板
+Generate template from\n and copy to clipboard	由 KerbalKonstructs 生成
+Generated by KerbalKonstructs	正在生成地形数据
+Generating terrain data	正在生成地形数据：
+Generating terrain data:	地理空间路径
+GetSize	万向节轴
+Gigameters	十亿米
+Gimbal axis	全局
+Glide slope angles	下滑道角度
+Global	全局范围：
+Global range:	全局禁用碰撞
+Globally disable Collide	全局禁用物理
+Globally disable Physical	全局强制取消聚集
+Globally force decluster	全局强制每帧发射
+Globally force emitOnUpdate	返回目标选择
+Go Back to Target Selection	返回类型选择
+Go Back to Type Selection	渐变
+Gradient mode parameters are not supported	颗粒
+Grain	草地颜色：
+GrasColor:	草地颜色：
+Grass Color :	草地颜色编辑器
+Grass Color Editor	草地纹理：
+Grass Texture:	引力素
+Gravity	重力
+Gray	灰度
+Green	绿色
+Green Curve	绿色文字 = 该列将显示
+Green text = column will be displayed	绿色：
+Green:	绿色曲线
+Ground Station	地面站
+Group	组中心
+Group Center	组编辑器
+Group Editor	组编辑器已生成
+Group Editor spawned	组：
+Group by:	分组依据：
+Group:	引导选择容差：
+Guide Selection Tolerance:	HDR
+HDR	HOVR
 HF reference:	高频参考：
 HF to LF decay time ratio	高频与低频衰减时间比
+HOVR	HUD
+HUD	你好
+Hallo	机库
+Hangar	机库已满！
+Hangar is Full!	当前 ROC 已分析？[
+Has current ROC been analyzed? [	当前异常点已分析？[
+Has current anomaly been analyzed? [	舱门平面
+Hatch (	舱门 (
+Hatch_Plane	舱门平面框架
+Hatch_Plane_Frame	头部
+Head	页眉配置
+Header Config	航向
+Heading	航向：
+Heading to	正前往
+Heading to target	正前往目标
+Heading:	高度图
+Height	高度
+Height Map	高度：
+Height:	高度图形变：
+HeightMapDeformity:	直升机坪
+Helmet	头盔
+Help	全部隐藏
+HiPass	高通
+Hide	隐藏
+Hide All	隐藏未购买
+Hide GUI until next launch	隐藏界面直到下次发射
+Hide Navball markers on EVA	EVA 时隐藏导航球标记
+Hide Stock Waypoint	隐藏原版航点
+Hide Unpurchased	全部隐藏
+Hide everywhere	此处隐藏
+Hide here	隐藏名称
+Hide name	雇佣
 Hide stock Applaunch button	隐藏原版 Applaunch 按钮
+Hide this window at startup	启动时隐藏此窗口
+Hiding this window in	隐藏此窗口倒计时
 Highpass cutoff frequency in Hz	高通截止频率（Hz）
 Highpass self-resonance dampening	高通自谐振阻尼
-HiPass	高通
+Hire	命中的部件为空：
+Hit collider:	命中碰撞体：
+Hit part was null:	初始位
+Home	热键设置
+Hotkey	热键管理器
+Hotkeys manager	小时后缀
+Hover Climb Rate:	悬停爬升率：
+Hover Control Setup	悬停模式关闭
+Hover Mode Off	悬停模式开启
+Hover Mode On	悬停关闭
+Hover OFF	悬停开启
+Hover ON	悬停在按钮上：
+Hover Off	悬停关
+Hover On	悬停开
+Hover over button:	色相偏移
+How often SSTV will play	SSTV 播放频率
 How often chatter will play	通话播放频率
 How often soundscapes will play	环境音播放频率
-How often SSTV will play	SSTV 播放频率
 How often this beepsource will play	此提示音源的播放频率
-Insta-chatter key:	即时通话按键：
+I'm done racing!	IAS
+IAS	ILS：获取生成配置失败：
+ILS: Failed to get generate config:	ILS：场地名称 =
+ILS: site name =	ILS：正在写入 NavUtils 配置到：
+ILS: writing NavUtils config to:	安装
+INITIALIZATION ERROR, CHECK CONFIGURATION.	初始化错误，请检查配置。
+INSTALL	已安装
+ISP	舱内视角 %：
+IVA %:	舱内阳光
+IVA Rot	IVA 旋转
+IVA animator(s).	IVA 动画器。
+IVA:	IVA：
+IVASun	冰质有机物
+Icon Selector	图标选择器
+Icy-Organic	识别
+If checked, moves to the next action before waiting for this one to complete.	勾选后，将在等待此动作完成前先进入下一个动作。
+Image viewer	入切向
+Import	导入
+Import Custom Waypoints	导入自定义航点
+Imported	已导入
+In Tangent	游戏内时间
+In flight angular data	飞行中角数据
+In flight vessel tree	飞行中载具树
+Include RCS	包含 RCS
+Incompatible Mods Detected	ABookCase 轨道参考系统安装不正确
+Incorrect <<1>> Installation	<<1>> 安装不正确
+Incorrect ABookCase Orbital Reference System Installation	天线助手安装不正确
+Incorrect Antenna Helper Installation	Better Load Save Game 安装不正确
+Incorrect B9PartSwitch Installation	B9PartSwitch 安装不正确
+Incorrect Better Load Save Game Installation	FMRS 安装不正确
+Incorrect Button Manager Installation	Button Manager 安装不正确
+Incorrect ClickThroughBlocker Installation	ClickThroughBlocker 安装不正确
+Incorrect EVA Enhancements Continued Installation	EVA Enhancements Continued 安装不正确
+Incorrect FMRS Installation	Filter Extensions 安装不正确
+Incorrect Filter Extensions Installation	HangarGrid 安装不正确
+Incorrect HangarGrid Installation	Janitor's Closet 安装不正确
+Incorrect Janitor's Closet Installation	Kaptain's Log 安装不正确
+Incorrect KSP ColorPicker Installation	KSP ColorPicker 安装不正确
+Incorrect KSP PartHighlighter Installation	KSP PartHighlighter 安装不正确
+Incorrect KSP_Log Installation	KSP_Log 安装不正确
+Incorrect Kaptain's Log Installation	Kerbal 环境研究所（KEI）安装不正确
+Incorrect Kerbal Environmental Institute (KEI) Installation	回收控制器安装不正确
+Incorrect Kronal Vessel Viewer Installation	Kronal Vessel Viewer 安装错误
+Incorrect QuickMods Installation	QuickMods 安装不正确
+Incorrect Recovery Controller Installation	RoverScience 安装不正确
+Incorrect RoverScience Installation	ShowFPS 安装不正确
+Incorrect Science Alert Installation	Science Alert 安装不正确
+Incorrect Ship Effects Continued Installation	Ship Effects Continued 安装不正确
+Incorrect ShowFPS Installation	增大垂直速度
+Incorrect SpaceTux Utility Installation	SpaceTux Utility 安装不正确
+Incorrect Through-The-Eyes Installation	Through-The-Eyes 安装不正确
+Incorrect Toolbar Controller Installation	Toolbar Controller 安装不正确
+Incorrect Trajectories Installation	Trajectories 安装不正确
+Incorrect VesselModuleSave Installation	VesselModuleSave 安装不正确
+Incorrect WaypointManager Installation	WaypointManager 安装不正确
+Increment:	惯性跟随模式
+Inflight Base Boss	信息显示
+Informational Displays	初始化样式
+Initial Display Columns	注入 Δv
+Injection Δv:	注入 Δv：
+Input Visualizer	输入可视化器
+Input craft mass	安装主体
 Insta-SSTV key:	即时 SSTV 按键：
+Insta-chatter key:	即时通话按键：
+Instance Editor	不足
+Insufficient crew	资金不足，无法雇佣员工！
+Insufficient funds to hire staff!	资金不足，无法开启此基地！
+Insufficient funds to open this base!	资金不足，无法开启此设施！
+Insufficient funds to open this facility!	资金不足，无法开启此场地！
+Insufficient funds to open this site!	资源不足，无法创建该实验。
+Insufficient resources to create the experiment.	技能不足，无法重新配置转换器。
+Insufficient skill to reconfigure the converter.	技能不足，无法重新配置模块。需要以下之一：
+Insufficient skill to reconfigure the module. You need one of:	积分步长：
+IntegrationStepSize:	强度
+Inventory	库存
+Invert	JCtoolBar，按钮数量：
 It does something	它会做点什么
+It looks dangerous out there. Are you sure you want to send someone out? They might lose their grip!	外面看起来很危险。你确定要派人出去吗？他们可能会失手！
+JCtoolBar, button count:	Janitor 工具栏
+Janitor's Toolbar	抖动散布
+Jitter Spread	K.E.R. 1.1.9.5
+Jump to Camera Position	跳转到摄像机位置
+JumpForce	跳跃力
+KERBAL	坎巴拉工程师 REDUX 1.1.9.5
+KERBAL ENGINEER REDUX 1.1.9.5	坎巴拉工程师 REDUX 1.1.9.5p - 控制中心
+KERBAL ENGINEER REDUX 1.1.9.5p - CONTROL CENTRE	KK 空管
+KIS Inventory	KIS 库存
+KJR Debug	KJR 调试
+KK ATC	KKEditorLock
+KK_KSC	KSC
+KSC	KSC 发射台
+KSC LaunchPad	KSC 跑道
+KSC Runway	KWT 导出
+Kaptain's Log	船长日志 - 屏幕消息
+Kaptain's Log - Screen Messages	船长日志显示
+Kaptain's Log Display	船长日志显示字段选择
+Kaptain's Log Display Field Selection	船长日志条目
+Kaptain's Log Entry	船长日志筛选选择
+Kaptain's Log Filter Selection	船长日志 HTML 模板选择
+Kaptain's Log HTML Template Selection	船长日志图像选择
+Kaptain's Log Image Selection	船长日志排序选择
+Kaptain's Log Sort Selection	保留 Alpha
+Keep Alpha	Kerbal Engineer Redux - 按键绑定
+Kerbal Engineer Redux - Key Bindings	KerbalActuators
+Kerbal height	宇航员身高
+Kerbal height with helmet	戴头盔的宇航员身高
+Kerbin	内核大小
+Kernel Size	按键绑定：
+Key Bind:	按键绑定：
+Key Bindings:	键值
+Key Value	关键帧数
+Kilometers	千米
+Kopernicus is in beta on this version of KSP...  Bugs may be present!	Kopernicus 无法在此版本 KSP 上运行！\n请不要尝试打开你的存档！
+Kopernicus will not work on this version of KSP!\nPlease don't try to open your saved games!	Kopernicus 启动失败
+LDR LUT	LDR LUT 贡献
+LDR LUT Contrib.	左
+LEFT	精简模式
+LF reference:	低频参考：
+LITE Mode	实验室：
+LOS Length:	视线长度：
+Lab:	着陆于
+Label	标签
+Landed on	着陆器
+Landers	着陆引导
+Landing Guide	着陆高度（m）：
+Landing alt (m):	着陆引导
+Lat.	纬度：
+Lat:	纬度：
 Late reverb delay time rel. to first reflection	晚期混响延迟时间（相对首次反射）
 Late reverberation level relative to room effect	晚期混响电平（相对于房间效果）
-LF reference:	低频参考：
+Lateral	横向
+Latitude	纬度
+Latitude:	发射飞行器
+Launch Vessel	发射台
+Launch in orbit	在轨发射
+LaunchQSave_	发射场
+Launchsite Editor	发射场选择器
+Launchsite Selector	图层：
+Layer	层
+Layers:	LdrLut
+LdrLut	左
+Left	左箭头
+Legend:	图例：
+Length:	镜头畸变
+Lens Distortion	插值
+Lerp	改平
+Level	升力
+Lift	灯光
+Light	灯光颜色
+Light Color	灯光浮点名称
+Light Float Name	灯光变换名称
+Light Transform Name	灯光类型
+Light Type	经度
+Lng:	加载实验
+LoPass	低通
 Load	载入
 Load Chorus	载入合唱
-Load chorus values from clipboard	从剪贴板载入合唱参数
 Load Dist	载入失真
-Load distortion values from clipboard	从剪贴板载入失真参数
 Load Echo	载入回声
-Load echo values from clipboard	从剪贴板载入回声参数
-Load highpass values from clipboard	从剪贴板载入高通参数
+Load Experiment	加载游戏
+Load Game	加载预设
 Load HiPass	载入高通
 Load LoPass	载入低通
-Load lowpass values from clipboard	从剪贴板载入低通参数
+Load Passengers?	加载乘客？
+Load Preset	本地天体
 Load Reverb	载入混响
+Load chorus values from clipboard	从剪贴板载入合唱参数
+Load distortion values from clipboard	从剪贴板载入失真参数
+Load echo values from clipboard	从剪贴板载入回声参数
+Load highpass values from clipboard	从剪贴板载入高通参数
+Load lowpass values from clipboard	从剪贴板载入低通参数
 Load reverb values from clipboard	从剪贴板载入混响参数
+Loaded	已加载
+Loading CONTRACT_TYPE nodes.	正在加载 CONTRACT_TYPE 节点。
+Loading contract configuration (	正在加载合同配置（
+Loading settings	正在加载设置
+Local Bodies	本地实例
+Local Instances	已锁定
+Location	位置
+Location display style	位置显示样式
+Locked	日志
+Log	记录仿真：
+Log Simulation:	经度
+Lon.	经度：
+Lon:	经度：
+Longitude	经度
+Longitude:	对准目标
+Look at Target	视距长度
 Loop	循环
 Loose	松散
-LoPass	低通
 Lowpass cutoff frequency in Hz	低通截止频率（Hz）
 Lowpass self-resonance dampening	低通自谐振阻尼
+Lum. Contrib	亮度-饱和度曲线
+MASCamera-Name	MAS 摄像机-界面
+MASCamera-UI	质量
+MASS	MAS 设置-配置
+MASSettings-Config	主开关
+MASTER SWITCH	鼠标悬停
+MOUSE HOVER	马赫速度
+Mach Speed	马赫：
+Mach:	磁铁
+Magnet	主
+Main	主窗口
+Main G Internal	主 G 力（内部）
+Main G-Force	主 G 力
+Main Window	主伞：
+Main chute:	主界面当前页：
+MainGUICurrentPage:	主界面已启用：
+MainGUIEnabled:	主界面窗口位置：
+MainGUIWindowPos:	主菜单皮肤
+Make	让我开心一下！
+Make me happy!	手动输入热键
 Makes science yielling noises	发出科学欢呼声
+Manual Entry Hotkey	手动输入
+Manual Inputs	手动飞越位置
+Manufacturer:	地图贴花编辑器
+MapDecal Editor	地图贴花编辑器已生成
+MapDecal Editor spawned	地图贴花编辑器界面已初始化
+MapDecalEditor UI initialized	遮罩
+Marker autoscaling	标记自动缩放
+Mask	使用质量 (t)：
+Mass	质量
+Mass to use (t):	总开关
+Massless resources	无质量资源
+Master Toggle	主曲线
+Material is null	材质为空
+Material:	最大飞行器质量：
+Max Craft Mass:	最大飞行器数：
+Max Craft:	最大期望值
+Max Expected Value	最大资金：
+Max Funds:	最大高度：
+Max Height:	最大长度：
+Max Length:	最大液体燃料：
+Max LiquidFuel:	最大亮度
+Max Luminance	最大质量：
+Max Mass:	最大单组元推进剂：
+Max Monoprop:	最大氧化剂：
+Max Oxidizer:	最大部件数：
+Max Parts:	最大科学值：
+Max Science:	最大人员数：
+Max Staff:	最大飞行器高度：
+Max Vessel Height:	最大飞行器长度：
+Max Vessel Length:	最大飞行器质量：
+Max Vessel Mass:	最大飞行器部件数：
+Max Vessel Parts:	最大飞行器宽度：
+Max Vessel Width:	最大宽度：
+Max Width:	最大飞行器重量：
+Max craft weight:	最大飞行器数量：
+Max no. of craft:	最高温度：
+Max temperature:	最大=
+Max=	每段最大帧数：
+MaxFramesPerPatch:	最大质量：
+MaxMass:	最大部件数：
+MaxParts:	最大轨迹段数：
+MaxPatchCount:	最大相对速度
+MaxVolume:	最大
+Maximum	中等模式
+Medium Mode	成员
+Megameters	兆米
+Member	所属组：
+Member of Group:	菜单
+Menu	网格
+Mesh	网格：
+Mesh:	最小期望值
+MeshRenderer controls	网格渲染器控制
+MeshRenderers	网格渲染器
+Message	消息
+Met Requirement	已满足要求
+Meters	米
+Min Expected Value	最小亮度
+Min Luminance	最小=
+Min=	最小视线轨道
+Minimum	模拟之间的最小延迟：
+Minimum LOS orbit (<<1>>)	最小视线轨道 (<<1>>)
+Minimum delay between simulations:	最小间隔
+Mirror: Is left engine	镜像：为右侧引擎
+Mirror: Is right engine	杂项
+Misc	杂项
+Mission Time	转动惯量
 Mix level of dry signal in output in mB	输出中干声信号的混合电平（mB）
+MoI	模组编辑器
+Mod Editor	模组筛选
+Mod Filter	模组筛选 (
+Mod Filter (	模组名称
+Mod Name	模组名
+ModName	Mod_OnVertexBuild
+Mod_OnVertexBuild	Mod_OnVertexBuildHeight
+Mod_OnVertexBuildHeight	模式
+Mode	模式：
+Mode :	模式：
+Mode:	模型
+Model	模型缩放：
+Model Scale:	模型：
+Models:	中等迎角
+Moderate AoA	中等G值
+Moderate G	中等侧滑
+Moderate Sideslip	中等侧向G值
+Moderate side-G	修饰键
+Modifier Name	修饰键名称
+Modifier name	修饰键类型
+Modifier type	模块类型
+Module Type	未找到 ModuleAsteroidResource：
+Module:	模块：
+ModuleAsteroidResource NOT found for	找到 ModuleAsteroidResource：
+ModuleAsteroidResource found for	聚变引擎模块
 More chatter and beep options are displayed	显示更多通话与提示音选项
+More info	更多信息
+More research is required to switch to the module.	运动混合
+Motion Blending	运动模糊
+Motion Blur	鼠标左键
+Mouse	鼠标
+Mouse1	鼠标瞄准飞行
+Move Vessel	移至文件夹
+Move to folder	移至新文件夹
+Move to new folder	移动速度
+Must be staffed with at least	下降至指定值以展开：
+Must go down to deploy:	必须向下运动才能展开
+Must go downwards to deploy	仅名称
 Mute	静音
 Muted	已静音
+NAMES ONLY	新建自定义分区
+NEW CUSTOM SECTION	NGS
+NGS	NGS 设为
+NGS set to	NGS：
+NGS:	注意：SC 角度用于在航天中心场景中获得更好的初始视角
+NONE	无
+NOTE: The SC angle is for a better initial vew on your SpaceCenter on the SC scene	无
+NULL	名称标签
+Name	名称
+Name tag	名称：
+Name:	名称标签字段
+NavBall follows Kerbal	导航球跟随宇航员
+Nearby facilities can only be shown when landed.	最近基地：
+Nearest Base:	需求
+Needs	海王星相机
+Neptune Camera	新建曲线
+New	新建
+New Curve	新邮件
+New Email	新丰度：
+New abundance:	新勇气：
+New config created	已创建新配置
+New courage:	新愚蠢：
+New stupidity:	新建组
+NewKey	新建路径
+NewPath	下一道门：
+Next Collider	下一个碰撞体
+Next Gate:	下一尺寸
+Next Hatch	下一个舱门
+Next MeshRenderer	下一个网格渲染器
+Next Prop	下一个道具
+Next SkinnedMeshRenderer	下一个蒙皮网格渲染器
+Next Transform	下一个变换
 Next page	下一页
+Next size	下一模式
+No Asteroid Detected Between The Transmitting And Receiving Instruments...	扫描区域内未探测到小行星……
+No Asteroid Detected In The Scanning Area...	本飞行器无通信设备，无法传输数据。
+No Colliders	无碰撞体
+No Comms Devices on this vessel. Cannot Transmit Data.	未创建组
+No Group created	未找到本地组
+No Local Group found	未创建 MapDecalInstance
+No MapDecalInstance created	没有可传输到的 ModuleScienceLab！
+No MeshRenderer	无网格渲染器
+No MeshRenderers	无网格渲染器
+No MeshRenderers matching filter "	无匹配过滤条件 "
+No ModuleScienceLab to transfer to!	未选择配置文件！
+No Profile Selected!	未找到 ROC
+No Props	无道具
+No RCS thrusters attached	未安装 RCS 推进器
+No RCS thrusters in place.	未放置 RCS 推进器。
+No ROCs found	未选择吸附目标
+No SSTV	无 SSTV
+No SkinnedMeshRenderers	无蒙皮网格渲染器
+No Snaptarget selected	未探测到异常信号。
+No Transforms	无变换
+No adjustable members found	未找到可调整部件
+No anomalous signals detected.	此高度下范围内无基地信标。
+No atmosphere	无大气层
+No attitude control elements attached	未安装姿态控制组件
+No attitude control elements in place.	未放置姿态控制组件。
+No base's beacon in range at this altitude.	此设施内当前没有存放飞行器。
 No beeps	无提示音
 No chatter	无通话
-No SSTV	无 SSTV
+No config file exists	配置文件不存在
+No contract	无合同
+No craft currently held in this facility.	缺少定义：
+No definition for	无可用实验槽
+No engines attached	未安装发动机
+No experiment slots available	没有可传输的实验，此槽为空。
+No experiment to transfer, this slot is empty.	5000 米内无设施
+No facilities within 5000m	附近没有有空闲人员的设施。
+No facility with available staff is nearby.	无库存
+No game object	无游戏对象
+No hatches	无舱门
+No internal model found	未找到内部模型
+No internal model found.	未找到内部模型。
+No inventories	未找到最近的基地。
+No nearest base found.	无可用对接口进行对接。
+No new waypoints found to import	未找到可导入的新航点
+No parachutes attached	未安装降落伞
+No port to dock from.	未安装任何读数。
+No readouts are installed.	此处未探测到资源矿脉，请到更远处寻找。
+No resource lodes detected here. Try traveling further.	无资源可勘探
+No resources to prospect	无已保存预设
+No saved presets	未找到目标！
+No targets found!	无可选模板
+No templates to choose from	无可用未分配人员。
+No transform	无变换
+No unassigned staff available.	本飞行器无可用且在范围内的通信设备，无法传输数据。
+No usable, in-range Comms Devices on this vessel. Cannot Transmit Data.	未找到视图！
+No vessel parts	无飞行器部件
+No views found!	无路径
+No, it would be a PR nightmare	不，那会是公关灾难
+NoPath	节点：主
+Node: Primary	节点：次
+Node: Secondary	噪声过滤容差
+None	无
+Not close enough to dock.	不足
+Not enough	剩余科学值不足；此实验可能需要带回坎巴拉以获得收益
+Not enough science remaining; this experiment may need to be returned to Kerbin for credit	不在飞行场景中。
+Not in flight scene.	此处无有价值之物，请换个地点。
+Nothing of value here, try another location.	未选择任何内容
+Nothing selected	此处无事可做，去研究点什么吧。
+Nothing to do here, go research something.	空
+Null	卫星数量
+NumSats	卫星数量提示
+Number of satellites:	卫星数量：
+OFF	关闭
+Occlude	遮挡修正
+Occlusion atmospheric modifier	遮挡大气修正系数
+Occlusion modifiers	遮挡修正系数
+Occlusion vacuum modifier	遮挡真空修正系数
 Off	关闭
+Offset	旧丰度：
+Okay	好
+Old abundance:	旧勇气：
+Old courage:	旧愚蠢：
+Old stupidity:	碰撞进入时
+OnCollisionStay	碰撞持续
+OnMouseDown	鼠标按下
+OnMouseOver	鼠标悬停
+OnMouseUp	鼠标抬起
+Only Favourites	只有工程师才能重新打包降落伞
+Only an engineer can repack a parachute	生涯模式中只有工程师才能重新打包
+Only engineers can repack in career	不透明度
+Opacity	开放基地给
+Open	打开
+Open Base for	打开基地管理器
+Open BaseManager	打开配置编辑器
+Open Config Editor	开放费用：
+Open Cost:	打开 ModelMultiShurikenPersistFX 界面：
+Open ModelMultiShurikenPersistFX UI :	开放给
 Open filter settings window for this beepsource	打开此提示音源的滤波器设置窗口
+Open for	在浏览器中打开
+Open in browser	开放锁定
+Opened	操作耗时：
+Operation completed in:	运行中的设施
+Operational Facilities	可选页脚图片
+Optional footer image	可选页眉图片
+Optional header image	可选标题：
+Optional title:	选项窗口
+OrbitPOInts Options	OrbitPOInts 选项
+Orbital Data	轨道周期
+Orbital Maneuver	轨道机动
+Orbital Period:	轨道周期：
+Orbital altitude	轨道高度
+Orientation:	原始尺寸
+Original size	其他
+Other	其他特性
+Other Features	外切线
+Out Tangent	超出范围
+Out of Range	结果掷骰：
+Outcome Roll:	结果无效，已跳过。
+Outcome is not valid, skipping.	结果掷骰低于最低目标值，已跳过。
+Outcome roll falls below lowest targetNumber, skipping.	已选结果：
+Outcome selected:	概览
+Overwrite custom waypoint file '	覆盖自定义航点文件 '
+Overwrite export file?	覆盖导出文件？
+PARTS	上一页
+PQS City	PQS 城市
+PQS Offset	PQS 偏移
+Page Back	下一页
+Page Forward	页：
+Page:	降落伞展开失败。
+Parachute deployment failed.	降落伞材质
+Parachute material	已用降落伞（个）：
+Parachutes used (parachutes):	参数
+Parent:	父级：
+Part (	部件（
+Part Information (Hover Tooltips)	部件资源
+Part Internal Model Transform	部件内部模型变换
+Part Resources	部件温度
+Part Temperature	部件不含对接口。
+Part does not contain a docking node.	部件质量：
+Part mass:	部件名称：
+Part name:	粒子
+Particle Parameter Name	部件数：
+Parts count:	粘贴位置
 Paste	粘贴
+Paste Position	粘贴到
 Paste all	全部粘贴
 Paste all filter values from clipboard	从剪贴板粘贴全部滤波器参数
 Paste beepsource from clipboard	从剪贴板粘贴提示音源
+Paste in	路径
+Path	路径时间倍率
+Pathing %:	执行生态区分析
+Perform biome analysis	永久清理
+Periapsis	近地点
+Periapsis:	近地点：
+Permanent Prune	物理范围扩展器
+Physics Range Extender	物理已加载
+Physics controls	物理控制
+Physics loaded	拾取
+Pick	拾取表面颜色
+Pick Surface Color	枢轴模式
+Pitch Down	俯仰向下
+Pitch Up	俯仰向上
 Pitch of this beepsource	此提示音源的音高
-Play only when in internal view	仅在内部视角时播放
+Pitch:	音调：
+Place Vessel	放置顺序：
+Placement order:	飞机
+Planes	选择行星
+Planetary Body Selection	天体选择
 Play Probe sample files randomly	随机播放探测器采样文件
+Play only when in internal view	仅在内部视角时播放
 Play this sample once	播放此采样一次
+Please capture an asteroid to process.	请选择要处理的小行星。按 ESC 取消。
+Please see KSP's log for additional details	请查看 KSP 日志以获取更多详情
+Please select an asteroid to process. Press ESC to cancel.	请指定有效的 Transform 名称
+Please specify a valid Transform name	插件数据
+Poof!	位置偏移
+Position	位置
+Position Offset	位置超出范围，正在还原更改。
+Position X	位置 X
+Position Y	位置 Y
+Position Z	位置 Z
+Position out of range, reverting changes.	位置插值
+Positioned Transform Name	后期曝光
+Power	预展开速度（秒）：
+Pre deployment speed (s):	预展开直径（米）：
 Precise	精确
-Press new Insta-chatter key...	按下新的即时通话按键...
+Precision Controls: Disabled	精细控制：已禁用
+Precision Controls: Enabled	精细控制：已启用
+Predeployed diameter (m):	预展开直径：
+Predeployed diameter:	预展开高度（米）：
+Predeployment altitude (m):	预展开气压（atm）：
+Predeployment pressure (atm):	预展开速度：
+Predeployment speed:	预展开：
+Predeployment:	谓词字段名称
+Predicate Field Name	预设
+Preset	预设描述
+Preset description	预设名称不能为空！
+Preset name cannot be empty!	预设名称：
+Preset name:	预设
+Presets	按下想要设置的按键。
+Press any key	按任意键
 Press new Insta-SSTV key...	按下新的即时 SSTV 按键...
-Press this key to play chatter now	按下此键立即播放通话
+Press new Insta-chatter key...	按下新的即时通话按键...
+Press the desired key to change it.	按键
 Press this key to play SSTV now	按下此键立即播放 SSTV
+Press this key to play chatter now	按下此键立即播放通话
+Pressure predeployment	上一模式
+Previous Collider	上一个碰撞体
+Previous Hatch	上一个舱门
+Previous MeshRenderer	上一个 MeshRenderer
+Previous Prop	上一个道具
+Previous SkinnedMeshRenderer	上一个 SkinnedMeshRenderer
+Previous Transform	上一个变换
 Previous page	上一页
+Previous size	主相机抗锯齿
+Primary Camera Antialiasing	主舱门碰撞体
+Print collisions	打印碰撞信息
 Probe sample file name	探测器采样文件名
+Probes	产出：
+Produces:	生产率：
+Production Rate:	生产率：最高
+Production Rate: Up to	当前生产率
+Project	属性：
+Prop controls	道具控制
+Property:	勘探失败；掷骰点数不够高。
+Props	道具
+Prospect failed; didn't roll high enough.	勘探资源
+Prospect for resources	该地点勘探次数已达上限。
+Prospecting limits reached for this location.	画质
+Put carrier craft into resonant orbit	将母船送入共振轨道
+Quality	快速导出
+Quaternion XYZW (INTERNAL cfg):	四元数 XYZW（内部配置）：
+Quick Export	RCS
 Quindar volume:	Quindar 音量：
-rate	速率
+Quit	退出
+RCS	RCS 燃烧时间
+RCS BURN TIME	RCS Build Aid v1.0.6
+RCS Build Aid v1.0.6	RCS ΔV（最大）
+RCS DELTA-V (MAX)	RCS 比冲
+RCS ISP	RCS 推力
+RCS THRUST	RCS 推重比（最大）
+RCS TWR (MAX)	移除
+RCS TWR readout	RCS TWR 读数
+RCS forces count:	RCS 力数量：
+REMOVE	重置
+RESET	资源
+RESTART REQUIRED WHEN CHANGING ASTEROID SPAWNER	反转
+REV	右
+RIGHT	RPM 页面激活
+Race Again!	比赛时间：
+Race Time:	比赛终点
+Radius	下降渐变速率
+Radius:	半径：
+Ramp Rate Down	上升渐变速率
+Ramp Rate Up	随机种子
+Random	随机
+Random Seed	随机类型
+Random type	随机模式
+Randomize Effect Seed	范围：
+Range	范围
+Range:	射线命中部件
 Rate:	速率：
+Raycast hit part	可回收
+Ready to be recovered	RealChute 信息窗口
+RealChute Info Window	RealChute 降落伞编辑器
+RealChute Parachute Editor	RealChute 设置
+RealChute Settings	实时
+Reason: in space.	原因：降落伞在整流罩内
+Reason: parachute is in fairings	原因：已在地面停稳。
+Reason: stopped on the ground.	原因：高度过高。
+Reason: too high.	重建
+Rebuild	重新配置
+Reconfigure Storage	回收基地
+Recovery Bases	红色曲线
+Red	红色
+Red Curve	红字 = 该列将不显示
+Red text = column will not be displayed	红：
+Red:	RedCurve
+Ref Orbit	参考系统：
+Reference	参考
+Reference System:	精炼厂
 Reference high frequency in Hz	参考高频（Hz）
 Reference low-frequency in Hz	参考低频（Hz）
 Reflections delay:	反射延迟：
 Reflections level:	反射电平：
+Refund for firing:	中继
+Relay	中继
+Relays	重新加载
+Reload	全部重新加载
+Reload All	重新加载所选
+Reload Contracts	重新加载合同
+Reload Selected	远处天体
+Reloading contracts...	正在重新加载合同...
+Reloading game database...	正在重新加载游戏数据库...
+Reloading module manager...	正在重新加载 Module Manager...
+Remote Bodies	RemoteTech
+Remove	移除
+Remove All Custom POIs	移除所有自定义 POI
+Remove Data	移除筛选器。
+Remove Filter.	移除所有资源
+Remove all Kopernicus City2 nodes	移除所有 Kopernicus City2 节点
+Remove all resourecs	更改节点前请先移除部件
+Remove parts before changing the node	正在移除按钮哈希：
 Remove the last beepsource	移除最后一个提示音源
 Remove this chatter set from the list	从列表中移除此通话集
+Removing button hash:	正在从 activeButtonBlockList 移除哈希：
+Removing hash from activeButtonBlockList:	重命名基地
+Rename Base	已重命名文件：
+Renamed files:	渲染层：
+Render Layer:	交会
+Repair All Buildings	展开降落伞需要电力
+Require Electric Charge to Deploy Parachutes	研究
+Reset	重置
+Reset All	重置滚转
+Reset All Standard POIs to defaults	将所有标准 POI 重置为默认值
+Reset Display Position	重置显示位置
+Reset POIs for	重置以下天体的 POI：
 Reset all chatterer settings to default	将所有 Chatterer 设置重置为默认
 Reset chorus filter to default	将合唱滤波器重置为默认
 Reset default settings	重置默认设置
@@ -825,46 +1519,485 @@ Reset highpass filter to default	将高通滤波器重置为默认
 Reset lowpass filter to default	将低通滤波器重置为默认
 Reset reverb filter to default	将混响滤波器重置为默认
 Resonance Q:	谐振 Q 值：
+Resonant Orbit	共振轨道
+Resonant Orbit Calculator	共振轨道计算器
+Resources List	响应速率降低
+Response Rate Down	响应速率提高
+Response Rate Up	最终面积：
+Restrict Docking Ports	限制对接端口
+Resulting area:	展开后最终面积：--- m²
+Resulting deployed area: --- m²	预展开后最终面积：--- m²
+Resulting predeployed area: --- m²	回收自异常信号的结果
+Results From Anomalous Signal Recovered	结果来源：
+Results from:	恢复旋转
+Resume Spin	返回编辑模式
+Return to Edit Mode	反向排序
 Reverb	混响
 Reverb decay time at low-frequencies	低频段的混响衰减时间
 Reverb delay:	混响延迟：
 Reverb density (modal density)	混响密度（模态密度）
 Reverb diffusion (echo density)	混响扩散（回声密度）
 Reverb level:	混响电平：
+Reverse Sort	还原
+Revert	还原更改
+Revert changes	还原位置
+Right	右箭头
 Rmv	移除
-room	房间
+Roll	滚转：
+Roll Flip Axis	滚转翻转轴
+Roll Left	左滚转
+Roll Right	右滚转
+Roll:	旋转至最大
+Room HF:	房间高频：
+Room LF:	房间低频：
 Room effect high-frequency level in mB	房间效果高频电平，单位 mB
 Room effect level at low frequencies in mB	低频段房间效果电平，单位 mB
 Room effect low-frequency level in mB	房间效果低频电平，单位 mB
-Room HF:	房间高频：
-Room LF:	房间低频：
 Room:	房间：
-Sample Selector	采样选择器
-Sample:	采样：
-Select a new insta-chatter key	设置新的即时通话按键
-Select a new insta-SSTV key	设置新的即时 SSTV 按键
-Select next skin	选择下一个皮肤
-Select previous skin	选择上一个皮肤
-Set	设置
-Set this sample to play from this backgroundsource	设置此采样由该背景音源播放
-Set this sample to play from this beepsource	设置此采样由该提示音源播放
-settings	设置
-Show advanced options	显示高级选项
-Show currently loaded chatter audio	显示当前加载的通话音频
-Show tooltips	显示工具提示
-Soundscape frequency:	环境音频率：
-Soundscape volume:	环境音音量：
-Spam the log with more or less usefull reports	用多多少少有用的报告刷屏日志
+Rot W	旋转 W
+Rot X	旋转 X
+Rot Y	旋转 Y
+Rot Z	旋转 Z
+Rotate to Maximum	旋转至最小
+Rotate to Minimum	旋转至中位
+Rotate to Neutral	向下旋转
+Rotation	旋转
+Rotation Offset	旋转：
+Rotation X	旋转 X
+Rotation Y	旋转 Y
+Rotation Z	旋转 Z
+Rotation:	旋转插值
+Rounded	圆度
+Rovers	跑道
+Runway	跑道
+Runways	更改此设置需要切换场景
+SCENE SWITCH REQUIRED WHEN CHANGING THIS SETTING	搜索：
+SEARCH:	序列
+SHOW ENGINEER	快照
+SOI:	SPD =
+SPD =	SPH
+SPH	采样数
 SSTV frequency:	SSTV 频率：
 SSTV on science transmitted	传输科学数据时发送 SSTV
 SSTV volume:	SSTV 音量：
+Sample Count	SatVsSatCurve
+Sample Selector	采样选择器
+Sample:	采样：
+Save	保存
+Save & Close	全部保存
+Save All	保存设施
+Save Facility	保存竞速结果
+Save Race Results	保存所选
+Save Selected	将所有字段保存为 CSV 文件
+Save Window	保存窗口
+Save all fields in CSV file	保存所有新建和编辑的实例。
+Save all new and edited instances.	保存为 HTML 文件
+Save as HTML file	保存为预设
+Save as global default for all new saves	保存为所有新存档的全局默认
+Save as preset	保存为预设…
+Save as preset...	保存并关闭
+Save&Close	保存…
+Save...	保存旋转
+Saved	已保存预设：
+Saved Preset:	已保存对所有对象的更改。
+Saved all changes to all objects.	已保存对静态模型配置的更改。
+Saved changes to static models config.	已保存对此对象的更改。
+Saved changes to this object.	保存中
+Saves an image of the window to the Screenshots directory	将窗口截图保存到 Screenshots 目录
+Saving	标量模块 ID
+Scalar Module ID	缩放
+Scale	缩放偏移
+Scale Offset	缩放变换名称
+Scale X	缩放 X
+Scale Y	缩放 Y
+Scale Z	缩放 Z
+Scaled Transform Name	散射
+SceneQSave_	科学
+Science	已回收科学数据！ -
+Science is worth a little risk	科学值得冒一点风险
+Science retrieved! -	科学警报删除弹窗
+ScienceSpot potential:	屏幕消息
+Screen Messages	以海平面为参考：
+SeaLevel as Reference:	搜索结果
+Search Results	座位
+Seat	秒后缀
+Secondary Camera Antialiasing	副门碰撞体
+Seed	地震锤找不到可撞击的小行星……
+Seismic Hammer can't find an asteroid to impact...	地震锤无法从此处撞击地表……
+Seismic Hammer can't impact the surface from here...	选择
+Sel	选择
+Select	全选
+Select All	选择乘员
+Select Crew	选择字段
+Select Fields	选择要克隆的组
+Select Group to Clone	选择 HTML 模板
+Select HTML Template	选择 HTML 模板：
+Select HTML Template:	选择按键绑定
+Select Key Bind	全不选
+Select None	选择预设
+Select Planet	选择星球
+Select Preset	选择处理目标
+Select Process Target	选择快速 HTML 模板
+Select Quick HTML Template	选择快速 HTML 模板：
+Select Quick HTML Template:	选择编辑器模式
+Select a Editor mode	选择新组
+Select a new Group	为当前场景选择新配置文件：
+Select a new insta-SSTV key	设置新的即时 SSTV 按键
+Select a new insta-chatter key	设置新的即时通话按键
+Select a new profile for current scene:	选择预设
+Select a preset	选择活动组
+Select active Group	选择预设
+Select current MeshRenderer	选中当前 MeshRenderer
+Select current SkinnedMeshRenderer	选中当前 SkinnedMeshRenderer
+Select current Transform	选中当前变换
+Select current hatch	选中当前舱门
+Select current prop	选中当前道具
+Select mode	选择模式
+Select next skin	选择下一个皮肤
+Select preset	选择导出页脚截图：
+Select previous skin	选择上一个皮肤
+Select screenshot for export footer:	选择导出页眉截图：
+Select screenshot for export header:	选择要附加到日志的截图：
+Select screenshot to attach to log:	选择小行星锁定
+Select:	选择：
+Selected Base	已选目标
+Selected Target	已选变体：
+Selected Variant:	已选部件：
+Selected object	选定对象
+Selected part:	已选择：
+Selected planet:	已选星球：
+Selected:	已选行星
+Sell for:	出售系数：
+Selling mult:	Serenity
+Sequence	序列
+Set	设置
+Set Active Group	设置组：
+Set Carrier orbit to be lower than target orbit	将母船轨道设为低于目标轨道
+Set Group:	设为\n发射场
+Set Location on Map	在地图上设置位置
+Set Position to Current	将位置设为当前位置
+Set as \nLaunchsite	设为默认
+Set as Default	设为发射场
+Set as Launchsite	设为吸附目标。
+Set as snap target.	将 maxRadius 设为输入值：
+Set maxRadius to input:	设置对象资源
+Set part	设置部件
+Set the altitude to have the satellites be in a geosynchronous orbit	将高度设为使卫星处于同步轨道
+Set the altitude to the current vessel's Ap	将高度设为当前飞行器的 Ap
+Set the altitude to the current vessel's Pe	将高度设为当前飞行器的 Pe
+Set the altitude to the minimum altitude possible to maintain a Line of Sight	将高度设为维持视线所需的最低高度
+Set the location by clicking on the map.	在地图上点击以设置位置。
+Set the location parameters to that of the currently active vessel.	将位置参数设为当前活动飞行器的位置。
+Set this sample to play from this backgroundsource	设置此采样由该背景音源播放
+Set this sample to play from this beepsource	设置此采样由该提示音源播放
+Setting up asteroid lode	正在设置地表矿脉
+Setting up surface lode	设置数据
+Settings	设置
+Shader Color Name	着色器浮点名称
+Shader Float Name	着色器：
+Shader:	在所有效果间共享手动输入值
+Share manual input values across effects	锐度
+Shift	飞船
+Ships	显示全部
+Show	显示
+Show Additional Joints	显示额外关节
+Show All	显示已屏蔽
+Show Blocked	显示已屏蔽部件
+Show Blocked Parts	仅显示名称
+Show Debug Window	显示调试窗口
+Show HUD Icon in IVA	在 IVA 中显示 HUD 图标
+Show Interstage Joints	显示级间关节
+Show LOS lines	显示视线连线
+Show Names Only	显示永久剔除部件
+Show Options	显示选项
+Show POI Max Terrain Altitude On Atmospheric Bodies	在有大气层的天体上显示 POI 最大地形高度
+Show PermaPruned Parts	显示已存放飞行器
+Show Stored Vessels	显示未购买
+Show Unpurchased	显示附近组
+Show advanced options	显示高级选项
+Show currently loaded chatter audio	显示当前加载的通话音频
+Show in Actions Screen	在操作界面中显示
+Show in Cargo Screen	在货物界面中显示
+Show in Crew Screen	在乘员界面中显示
+Show nearby groups	显示FPS
+Show on start	启动时显示
+Show the Line Of Sight lines	显示视线连线
+Show tooltips	显示工具提示
+Show vector magnitudes	显示矢量大小
+ShowFPS	显示FPS按钮
+ShowFPS_NS	显示视线连线
+Shutter Angle	模拟速率滑块
+Simulate using residual predictions:	使用矢量推力值进行模拟：
+Simulate using vectored thrust values:	单次发射计时器
+Single Emit Timer	站点类别：
+Site Category:	站点名称：
+Site Name:	站点类型：
+Site Type:	站点已隐藏：
+Site is hidden:	情境
+Situation not valid, existing lode found:	情境：
+Situation:	SituationIsValid：检查中……
+SituationIsValid: checking...	天空盒：
+Size	大小
+SkinnedMeshRenderer controls	SkinnedMeshRenderer 控制
+SkinnedMeshRenderers	SkinnedMeshRenderer 列表
+Skybox:	滑块
+Slider	SmokeScreen
+Smooth Tangents	平滑颜色：
+SmoothColor:	平滑高度：
+SmoothHeight:	平滑度
+Snap Surface	吸附到目标
+Snap to Target	吸附到地形
+Snap to Terrain	机翼吸附至水平
+Snap wings to level	软拐点
+Some	部分参数无法应用\n无效参数：
+Some parameters could not be applied\nInvalid parameters:	抱歉，此读数模块未提供帮助信息。
+Some parts have locked subtypes selected.  They have been replaced with the highest priority unlocked subtype	某些部件选择了已锁定的子类型。它们已被替换为优先级最高的未锁定子类型
+Sorry, no help information has been provided for this readout module.	排序
+Sort	立即排序
+Sort Immediately	排序选择窗口
+Sort Selection Window	排序：
+Sort:	源控制器
+Soundscape frequency:	环境音频率：
+Soundscape volume:	环境音音量：
+Source controller	航天中心镜头旋转：
+SpaceCenter Camera rotation:	航天中心，   飞行器名称
+SpaceCenter,   VesselName	备用降落伞：
+Spam the log with more or less usefull reports	用多多少少有用的报告刷屏日志
+Spare chutes:	备用降落伞：无限
+Spare chutes: inf	生成乘员
+Spawn Crew	新建
+Spawn New	生成飞行器
+Spawn Vessel	生成此静态模型的实例。
+Spawn an instance of this static.	新建组
+Spawn new Group	新建地图贴花
+Spawn new MapDecal	新建组
+Spawn new group	已生成
+Spawn open hatch	生成打开的舱门
+Spawned	已生成副本
+Spawned duplicate	发现特殊缓存于
+Special cache found at	比热：
+Specific heat:	指定
+Specify	指定标签（
+Specify tag (	光谱 LUT
+Spectral LUT	光谱LUT
+Speed	减速
+Speed Down	加速
+Speed Up	速度控制
+Speed control	光斑角度
+Spot Angle	堆叠
+Stack	堆叠尺寸：
+Stack size:	职员：
+Staff:	当前职员
+Stage	分级
+Start	开始空中竞速！
+Start Air Racing!	静态模型配置编辑器
+Static Model Config Editor	静态偏移
+Static friction	静摩擦
+Static offset	静态偏移模式：改变组内静态模型的偏移，但不改变组的位置。
+Static offset mode: changes the offset of the group statics but does NOT change the group position.	静态模型会出现在异常扫描仪上
+Static will show up on anomaly scanners	静态模型编辑器
+Statics Editor	静止 %：
+Stationary %:	静止混合
+Stationary Blending	空间站
+Stats	步长：
+Status:	状态：
+Step:	停止旋转
+Stock	原版
+Stop	停止
+Stop Spin	存放飞行器
 Stop beeps from beeping while chatter is playing	通话播放时停止提示音
+Store Vessel	存放或取出这些资源：
+Store or retrieve these resources:	已存放飞行器（
+Stored Craft (	已存放：
+Stored:	成功
+Straight line	直线
+Success	交换左右键点击
+Sucessfully loaded	加载成功
 Switch between timing modes	在计时模式之间切换
+Switch to	切换至目标
+Switch to Target	已调用 SwitchTemplateType。
+SwitchTemplateType called.	对称对应件：
+Symmetry counterparts:	同步轨道
+Synchronous orbit (<<1>>)	同步轨道 (<<1>>)
+T.Curve Shd Angle	T.Curve 阴影长度
+T.Curve Shd Length	T.Curve 阴影强度
+T.Curve Shd Strength	T.Curve 趾部长度
+T.Curve Toe Length	T.Curve 趾部强度
+T.Curve Toe Strength	推力
+THRUST	TODO - 样条参数。
+TODO - Spline parameter.	TODO：此处为相机旋转与缩放控件。
+TODO: camera rotate and zoom controls here.	绝密！
+TOP SECRET!	扭矩
+TORQUE	跟踪
+TRACKING (REF:	推重比
+TWR	推重比（最大）
+TWR (MAX)	标签
+Tag	标签条目
+Tag Entry	停机坪纹理
+Target Orbit	目标高度（米）：
+Target Port	目标端口
+Target Vessel	目标飞行器
+Target altitude (m):	目标行星：
+Target planet:	目标变换名称
+Target transform name	目标缠斗中心
+Tarmac Color :	停机坪灰度
+Tarmac GrayScale	停机坪随机
+Tarmac Random	停机坪平铺：U：
+Tarmac Tiling: U:	技术突破！研究成果已揭开……的奥秘
+Technological breakthrough! Research results have discovered the secrets to	温度
+Terrain quality set improperly!.	文本
+Text	文本颜色
+Text color	纹理路径
+Texture Path	目标
+Tgt	感谢在此交易：
+Thanks for trading at:	感谢使用：
+Thanks for using:	实验室
+The Lab	参数应用成功！
+The application of the parameters succeeded!	没有可焊接的对接航天器。
+The contract group '	合同组 '
+There is no docked vessel to weld.	营房或公寓已无空位可供这名坎巴拉人入住。
+There's no room left in a barracks or apartment for this kerbal to go to.	厚度修正
+These mods are incompatible with Unity	这些模组与 Unity 不兼容
+Third Color :	第三贴图
+Third Texture	第三贴图平铺：
+Third Texture Tiling:	该区域已研究过，请尝试调查其他区域以完成合同
+This area has already been studied, try investigating another region to complete the contract	此配置可用，但内容只能在飞行中访问。
+This configuration is working, but the contents can only be accessed in flight.	该设施开展与太空计划相关的业务以赚取资金。
+This facility carries out business related to the space program in order to generate Funds.	该设施进行研究并产出科学点。
+This facility carries out research and generates Science.	该设施无需指派人员。
+This facility does not require staff assigned to it.	该设施至少需要一名管理员。
+This facility must have at least one caretaker.	这将永久重命名文件以阻止其被加载
+This will permanently rename files to prevent them from being loaded	这将永久重命名已修剪文件以允许其被加载
+This will permanently rename pruned files to allow them to be loaded	阈值
+This window will only appear once to offer the choice of focus model.  It can always	此窗口只会出现一次，用于选择焦点模式。它始终可以
+Thrust	推力
+Time	分析次数：
+Time to target	到达目标时间
+Times Analyzed:	色调
+Tint	提示
+Tip	标题
+Title	标题：
+Title:	建造所需：
+To build:	至固定相机
+To use Kerbal Alarm Clock (KAC), select either Current Ap or Current Pe,	要使用 Kerbal Alarm Clock (KAC)，请选择“当前 Ap”或“当前 Pe”，
+Toggle	切换贴花
+Toggle Decals	切换停放
+Toggle Park	切换对称参考线
+Toggle Symmetry Guides	切换动画
+Toggle part list window	切换部件列表窗口
+Toggle vessel tree window	切换飞行器树窗口
+Tone Curve Gamma	色调映射
+Toogle positioning behavior:	工具
+Tool	零件总成本：
+Toolbar Controller	工具栏控制器
+Toolbar Controller Intro	工具栏控制器介绍
+Torque	扭矩
+Total number of satellites to arrange	要排布的卫星总数
+Total part cost:	零件总质量：
+Total part mass:	追踪随机物体
+Touchdown	着陆
+Track random objects	追踪站
+Tracking Station	追踪站 \n(纬度.
+Tracking Station \n(Lat.	追踪站
+Tracking Stations	追踪站
+Transfer Funds to KSC Account	转移科学点至KSC研发
+Transfer Science to KSC R&D	转移警告
+Transform Parent	变换父级
+Transform Parent Parent	变换父级的父级
+Transform Target	变换：
+Transform controls	变换控制
+Transform position	变换位置
+Transform:	未在点位时尝试分析？
+Transforms	变换
+Translation Flip X Axis	平移翻转 X 轴
+Translation Flip Y Axis	平移翻转 Y 轴
+Tried to analyze while not at spot?	TryParse
 Try to load chatter set with this name	尝试加载此名称的通话语音包
+Turn Off Hover Mode	开启悬停模式
+Turn On Hover Mode	不支持双曲线模式参数
+Two curve mode parameters are not supported	不支持双渐变模式参数
+Two gradient mode parameters are not supported	双色
+UI Scaling (	界面缩放 (
+UIScale	UI缩放跟随原版
+UV Offset	UV缩放
+UV Scale	哎呀！
+UhOh!	解除 Bloak！
+Un-Bloaked!	找不到可切换的模板。
+Unable to find a template to switch to.	无法传输额外研究，与基地失去连接！
+Unable to transmit bonus research, there's no connection back home!	无法使用
+Unable to use	取消指派
+Unassigned:	取消阻止
+Unblock	全部取消阻止
+Unblock All	撤销永久修剪
+Undo Permanent Prune	解除对接
+Undock	解除对接航天器
+Units	单位
+Units:	单位：
+Universal IMGUI click-through blocking (covers mods that don't use CTB)	通用 IMGUI 点击穿透阻止（覆盖不使用 CTB 的模组）
+Unprune (restore)	上方位置
+Up until this release, the Click Through Blocker (CTB) has used a model of	在此版本之前，点击穿透阻止器 (CTB) 一直使用以下模式
+UpPos	更新对称零件
+Update symmetrical parts	更新对称零件
+Update symmetry parts	已按下升级按钮 -
+Upgrade button pressed -	未绘制升级界面 - 非活动航天器
+UpgradeGUI not drawn - not active vessel	已升级 levelAnalyzedDecay。当前等级：
+Upgraded levelAnalyzedDecay. Now level:	已升级 levelMaxDistance。当前等级：
+Upgraded levelMaxDistance. Now level:	已升级 predictionAccuracy。当前等级：
+Upgraded predictionAccuracy. Now level:	上采样容差
+Use	使用归档
+Use Active Vessel Location	使用活动飞行器位置
+Use Archives	使用相机视场
 Use Blizzy78's toolbar only	仅使用 Blizzy78 工具栏
+Use Camera Fov	使用默认
+Use Default	使用随机性
+Use Opaque Background Override	使用不透明背景覆盖
+Use Randomness	使用替代涂装
+Use Skin	使用皮肤
+Use Top Right Close Button	使用右上角关闭按钮
+Use alt. skin	使用当前飞行器质量
+Use application launcher	使用应用程序启动器
+Use blizzy's toolbar	使用 blizzy 工具栏
+Use current craft mass	使用短名称
+Use hotkey (	使用热键 (
 Use per-vessel settings	使用每艘飞船独立设置
+Use short name	使用绝对值
+Use terrain height for altitude	使用地形高度作为海拔
+UseCache:	使用轨道
 User	用户
 User reverb settings	用户混响设置
+VAB	VAB叠加层X位置：
+VAB Overlay X Pos.:	航天器
+VESSEL	可见
+VISIBLE	VSPD\r\n+
+VSPD\r\n+	VSPD\r\n++
+VSPD\r\n++	VSPD\r\n-
+VSPD\r\n-	VSPD\r\n--
+VSPD\r\n--	VSPD\r\n0
+VSPD\r\n0	VTOL
+VTOL	真空提示
+Vac	真空
+Vac:	真空：
+VacTip	真空
+Vacuum	值=
+Val=	矢量推力：
+Values to display below altimeter	高度表下方显示的值
+Vectored Thrust:	速度模式
+Velocity	速度
+Velocity Mode	详细模拟日志：
+Velocity pitch angle:	速度俯仰角：
+Velocity relative to part	相对部件的速度
+Verbose Simulation Log:	版本
+Version	垂直速度 =
+Vert speed =	垂直运动
+Vertical motion	飞行器详情
+Vessel	飞行器
+Vessel Details	飞行器移动器
+Vessel Mover	飞行器状态无效
+Vessel situation not valid	飞行器过重：
+Vessel too heavy:	飞行器：
+Vessel:	VesselCoM
+View controls	视图控制
+Visible	可见
 Volume level for Airlock	气闸音量
 Volume level for EVA breathing	EVA 呼吸音量
 Volume level for Soundscapes	环境音音量
@@ -873,429 +2006,358 @@ Volume level for this Background audio	该背景音频的音量
 Volume of 1st chorus tap	第 1 路合唱抽头音量
 Volume of 2nd chorus tap	第 2 路合唱抽头音量
 Volume of 3rd chorus tap	第 3 路合唱抽头音量
+Volume of SSTV source	SSTV 音源音量
 Volume of beeps before and after chatter	通话前后提示音音量
 Volume of chatter audio	通话音频音量
 Volume of echo signal to pass to output	输出的回声信号音量
 Volume of original signal to pass to output	输出的原始信号音量
-Volume of SSTV source	SSTV 音源音量
 Volume of this beepsource	该提示音源的音量
+Volume used:	警告：实验性功能。发射支架可能失效。
+Volume:	音量：
+WARNING	警告
+WARNING: Experimental. Launch clamps may be broken.	WAYPOINT_MANAGER_ICONS
+WARNING: trajectory prediction stopped, too many iterations	警告：轨迹预测已停止，迭代次数过多
+WAYPOINT_MANAGER_ICONS	WBIModuleEVABotRepairs
+WBIOK	WPT
+WPT	WaitForAnimation
+Waiting	WalterLaunch
+Warning	警告！
+Warning!	警告：该名称下已保存预设。确定要继续吗？
+Warning: there is already a preset saved under this name. Are you sure you wish to proceed?	WaterLaunch
+Waypoint	航点
+Waypoint Manager	航点管理器
+Waypoint Manager Settings	航点管理器设置
+Waypoint Opacity	航点不透明度
+WaypointManager: Couldn't create texture for '	WaypointManager：无法为 ' 创建纹理
+Waypoints to display in-flight	飞行中显示的航点
+We can afford the reconfigure.	焊接需要一名具备维修技能的宇航员进行舱外活动。
+Welding requires a kerbal on EVA with the repair skill.	焊接需要一名具备维修能力的宇航员。
+Welding requires a kerbal with the ability to effect repairs.	位置
+Wet mass	湿质量
 Wet mix 1:	湿声混合 1：
 Wet mix 2:	湿声混合 2：
 Wet mix 3:	湿声混合 3：
 Wet mix:	湿声混合：
+Where	宽度：
+Width:	WindTunnelExport
 Wind volume:	风声音量：
-Select a terminal...	选择一个终端...
-Incorrect Through-The-Eyes Installation	Through-The-Eyes 安装不正确
-IVA:	IVA：
-Disable all joints	禁用所有关节
-KJR Debug	KJR 调试
-Show Additional Joints	显示额外关节
-Show Interstage Joints	显示级间关节
-...give at least 3 characters...	...请至少输入 3 个字符...
-...nothing is found for the pattern...	...未找到匹配该模式的内容...
-...there are more, but they are not shown...	...还有更多，但未显示...
-<<1>> (Data=<<2>>, Value=<<3>>)	<<1>>（数据=<<2>>，数值=<<3>>）
-<<1>> | Seat <<2>>	<<1>> | 座位 <<2>>
-<<gen:1>>'s inventory	<<gen:1>> 的库存
-Action	操作
-Another part is already carried	已携带其他部件
-Cannot put an assembly into inventory: <<1>> part(s) attached	无法将组件放入库存：已连接 <<1>> 个部件
-Cannot use equipped item because nothing is equipped	未装备任何物品，无法使用已装备物品
-Carriable items cannot be stored in the seat's inventory	可携带物品无法存放在座位库存中
-Carried	已携带
-Contents cost: <<1>>	内容成本：<<1>>
-Contents mass: <<1>>	内容物质量：<<1>>
-Cost: <<1>>	成本：<<1>>
-Debug	调试
-Dispose	销毁
-Drop	放下
-Dry mass: <<1>>	干质量：<<1>>
-Equip	装备
-Inventory	库存
-Inventory | <<1>>	库存 | <<1>>
-Inventory is full, cannot split!	库存已满，无法拆分！
-Inventory:	库存：
-KIS Inventory	KIS 库存
-KIS item adjustment tool	KIS 物品调整工具
-KIS spawn item dialog	KIS 生成物品对话框
-Label	标签
-Mass: <<1>>	质量：<<1>>
-Max destination volume reached: <<1>> (+<<2>>)	已达到目标最大容量：<<1>> (+<<2>>)
-Max Volume: <<1>>	最大容量：<<1>>
-No action	无操作
-NOTE: The item's volume and mass are NOT checked!	注意：不会检查物品的体积和质量！
-Part has no resources	部件没有资源
-Part has no science data	部件没有科学数据
-Pod <<1>> doesn't have personal inventory space	舱体 <<1>> 没有个人库存空间
-Press [<<1>>] to use (equipped)	按 [<<1>>] 使用（已装备）
-Put On Helmet	戴上头盔
-Quantity:	数量：
-Quantity: <<1>>	数量：<<1>>
-Remove Helmet	摘下头盔
-Resource mass: <<1>>	资源质量：<<1>>
-Seat <<1>> inventory	座位 <<1>> 库存
-Set name	设置名称
-Spawn item	生成物品
-Split (<<1>>)	拆分 (<<1>>)
-tab	标签页
-The caption of the button that closes the opened inventory dialog.	关闭已打开库存对话框的按钮标题。
-The caption of the button that shows an input field to enter a custom name for an inventory.	显示自定义库存名称输入框的按钮标题。
-The info string in the editor to present if kerbals can access the items in the inventory when going EVA.	编辑器中的提示信息：宇航员出舱（EVA）时能否访问库存中的物品。
-The info string in the editor to present if kerbals cannot access the items in the inventory when going EVA.	编辑器中的提示信息：宇航员出舱（EVA）时无法访问库存中的物品。
-The message to present in the tooltip window when the item has no resources.	物品没有资源时在工具提示窗口中显示的消息。
-The message to present in the tooltip window when the item has no science data.	物品没有科学数据时在工具提示窗口中显示的消息。
-The message to present when EVA kerbal enters a pod which doesn't have KIS inventory.	EVA 宇航员进入没有 KIS 库存的舱体时显示的消息。
-The message to present when 'use' key is pressed, but no item is equipped in the right hand of the EVA kerbal.	按下“使用”键，但 EVA 宇航员右手没有装备物品时显示的消息。
-The name of the context menu item that puts the kerbal's helmet back.	将宇航员头盔戴回的右键菜单项名称。
-The name of the context menu item that removes kerbal's helmet if the environment conditions allow it.	在环境条件允许时摘下宇航员头盔的右键菜单项名称。
-The name of the part's menu item that opens the associated inventory. The "part" can be a kerbal.	打开关联库存的部件菜单项名称。“部件”也可以是宇航员。
-The seat must be crewed at launch to acquire items	座位必须在发射时载有乘员才能获取物品
-The text to display in the inventory slot background to identify it.\nArgument <<1>> is the number of the slot.	显示在库存槽位背景上以标识该槽位的文本。\n参数 <<1>> 是槽位编号。
-The text to display in the inventory slot background to tell if the item is being carried by the kerbal.	显示在库存槽位背景上以说明物品是否由宇航员携带的文本。
-The text to display in the inventory slot background to tell if the item is being equipped by the kerbal.	显示在库存槽位背景上以说明物品是否由宇航员装备的文本。
-The title of the module to present in the editor details window.	在编辑器详情窗口中显示的模块标题。
-The title of the window that represents a context menu for a specific item in the inventory.	表示库存中特定物品右键菜单的窗口标题。
-This storage is not accessible from the inside!	无法从内部访问此储物空间！
-This storage is not accessible from the outside!	无法从外部访问此储物空间！
-This storage is not accessible while carried!	携带时无法访问此储物空间！
-Total cost: <<1>>	总成本：<<1>>
-Total mass: <<1>>	总质量：<<1>>
-Total volume: <<1>>	总容量：<<1>>
-Unequip	卸下
-Use stock game abilities to handle this part	使用原版游戏功能处理此部件
-Volume: <<1>>	容量：<<1>>
-Off if parachuting	跳伞时关闭
-Off if vessel is rover	飞行器为巡视车时关闭
-Active below:	低于此值激活：
-Incorrect Ground Proximity Installation	地面接近告警安装错误
-Pitch:	音调：
-Proximity	接近告警
-Proximity - ProximityDraw():	接近告警 - ProximityDraw()：
-Proximity - ShowSettings():	接近告警 - ShowSettings()：
-Proximity settings	接近告警设置
-Sound:	声音：
-Switch off	关闭
-Switch on	开启
-Threshold:	阈值：
-Visual:	视觉：
-Volume:	音量：
-no force module	无施力模块
-Amnt	数量
-Ang Acc	角加速度
-Burn time	燃烧时间
-Celestial bodies	天体
+World	Wpt
+Wpt	X 曲线
+X Curve	X 滚动速率
+X Scroll Rate	XXQ
+XXQ	Y 曲线
+Y Curve	Y 滚动速率
+Y Scroll Rate	偏航：
+Yaw:	您当前
+Yes	是
+You are	您正在离开以下空域：
+You are now leaving the airspace of	可在此买卖资源
+You can buy and sell Resources here	可在此储存资源
+You can store Resources here	您已进入以下空域：
+You have entered the airspace of	您需要
+You need a	实验空间不足。
+You need more experiment space.	必须着陆后才能使用！
+You need to be landed to use this!	作物歉收！未获得任何资源。
+Your crops have failed! You gain no resources.	Z 曲线
+Z Curve	Z 偏移
+ZBias	零
+Zero	零旋转
+Zero Rotation	熄火时归零
+Zero on Flameout	缩放：
+Zoom:	放大
+ZoomIn	缩小
+ZoomOut	缩放速度
+] to show more info...	_EmissiveColor
+_EmissiveColor	一个 Kerbin 日
+a Kerbin day	aName
+aName	aPowerRelay
+abundance increase:	丰度：
+abundance:	活动组：
+active Group:	activeSignalStrength
+add	添加异常点 ID
+add anomaly ID	已添加异常点 ID：
+added anomaly id:	advExploration
+agent	全部
+all	将上方对齐到组中心上向量
+allign UP to GroupCenter Up-vector	将上方对齐到位置上方
+alling UP to Position-Up	分析记录：
+altitude	高度
+analysisRoll:	已在 ROC 分析科学数据
+analyzed science at ROC	已在异常点分析科学数据
+analyzed science at anomaly	已在科学点分析科学数据
+analyzed science at science spot	和
+and	以及与 KSC 的连接，才能创建实验。
+and a connection to KSC in order to create experiments.	角加速度 =
+and then select from the options listed at the bottom	然后从底部列出的选项中选择
+ang acc =	角速度 =
+ang vel =	已访问异常点 ID：
+animation controls	动画控制
+anomaly id visited:	小行星
+autoLOC_285861	autoZoomMargin
+bName	bPowerRelay
+be changed in the stock settings window, under the Click-Through-Blocker tab	在原版设置窗口中，于“点击穿透阻止器”标签页下更改
+beeps	提示音
+before_launch	bgB
+bgB	bgG
+bgG	bgR
+bgR	生物群系
+bias	偏移
+biome	blockBackground
+blocktype:	天体科学系数：
+bodyScienceScalar:	框
+box	边界矩形, x,y:
+brect, x,y:	按钮
+button	buttonIdBDI 返回空值
+buttonIdBDI returned a null	按钮_取消
+button_cancel	可购买
+buyable	未找到摄像机
+calling on FSfuelSwitch tank setup	调用 FSfuelSwitch 油箱设置
+camera forward surface	相机前向表面
+camera not found	可购买：
+camera relative	相对相机
+can be bought:	可出售：
+can be sold:	canAffordReconfigure：无资源，因此可以负担。
+canAffordReconfigure: no resources so we can afford it.	可预览
+cancel	取消_颜色
+cancel_color	点击1
+chatter	通话
 children	子级
-DCoM offset	DCoM 偏移
-DCoM offset readout	DCoM 偏移读数
-Direction	方向
-Dry mass	干质量
-Engine forces count:	发动机力计入：
+clear	清除
+click1	点击2
+click2	将组克隆到当前
+clips)	片段)
+clone group to active	数量：
+cnt:	完成
+colored markers do NOT have the selected color applied)	彩色标记不会应用所选颜色)
+consoleGUI height:	合同
+contracts successfully.	个合同成功。
+contracts.	航向 =
+course =	创建资源
+crewmembers.	巡航控制已激活
+currentScalarDecay:	截止频率
+cutoff_freq	数据_注释
+data_comment	数据_标题
+data_header	衰减_高频_比率
+decay_hf_ratio	衰减比率
+decay_ratio	衰减时间
+decay_time	删除
+default	默认
+del	展开事件
+delay	延迟
+density	密度
+depth	深度
+descr	目标航向
+desired course	导引强度
+diffusion	扩散
+director strength	已禁用的合同类型
+directory name	目录名称
+discarding changes	显示名称
+distCheck:	行驶距离:
+distTrav:	总行驶距离:
+distTravTotal:	距离
+distortion_level	缠斗距离
+dry mass	干_等级
+dry_level	干_混合
+dry_mix	海拔
+empty	空
+en-US	末端信号强度
+engine	发动机
+engine volume:	发动机音量：
+escape	舱外维修包
+exists:	存在：
+export	假
+false	先选择一个本地组中心
+first a Local Group Center	首先。
+first.	修理部件
+fixPart	用于属性调整。
+for stat adjustment.	自由视角阈值平方
 forward	前向
-Fuel mass	燃料质量
-In flight angular data	飞行中角数据
-In flight vessel tree	飞行中载具树
-Include RCS	包含 RCS
-Launch in orbit	在轨发射
-Marker autoscaling	标记自动缩放
+from	从
+from Archives	来自主按钮屏蔽列表
+from pre-loaded configs	来自预加载配置
+from primaryButtonBlockList	从:
+from:	燃料储备百分比
+fund	资金
+funds	资金。
+funds.	资金。声望损失:
+funds. Rep lost:	获得勇气
+generatedScience:	绿色
+green	已设为默认
+has been killed!	已阵亡！
+has been set as the default	已设为发射场
+has been set as the launchsite	内有乘员。请先撤离该舱再放气。
+has crew aboard. Vacate the module before deflating it.	已陷入疯狂！
+has gone Insane!	没有具质量的推进剂！
+has no propellants with mass!	上面连接着部件。请先移除再放气。
+has parts attached to it. Please remove them before deflating.	含有资源。再次点击以确认舱体放气。
+has resources. Click again to confirm module deflation.	高频_参考
+hatch configuration	舱门配置
+hf_reference	图标文件夹
+hover	悬停
+hover height set to	悬停高度设为
+in part	在部件内
+is a Hero character, skipping.	是老兵，跳过。
+is a Veteran, skipping.	已禁用
+is disabled	不是此部件上的有效变换
+is entering seat	正在进入座位
+is not a valid Transform on this part	isIVA()
+isIVA()	清洁工工具栏1
+kIAS	保持方向
+keep direction	坎巴拉人
+kerbal	按键缩放速度
+kerbal collider configuration	Kerbal 碰撞体配置
+key:	键：
+kill	kts
+kts	上次显示 1
+ladder count	梯子数量
+lastTimeShown 1	等级分析衰减:
+layer	层
+levelAnalyzedDecay:	液燃参考
+lf_reference	线性模型:
+linmodel:	列表项
+m\n    area:	磁体变换
+map:	标记_
+marker	标记
+marker_	白色标记
+marker_white	最大完成数
 mass	质量
 mass info	质量信息
-Massless resources	无质量资源
+maxRelV	最大同时数
+message	最低版本
+minutes	修饰键:
+mod.Key:	模组名
+modToolbarControl is null	modToolbarControl 为 null
+modname	名称
 module	模块
-More info	更多信息
-Mouse	鼠标
 mouseover a part	将鼠标悬停在部件上
-No atmosphere	无大气层
-No attitude control elements attached	未安装姿态控制组件
-No attitude control elements in place.	未放置姿态控制组件。
-No engines attached	未安装发动机
-No parachutes attached	未安装降落伞
-No RCS thrusters attached	未安装 RCS 推进器
-No RCS thrusters in place.	未放置 RCS 推进器。
-No vessel parts	无飞行器部件
-p. mass	部件质量
-physics	物理
-Press any key	按任意键
-RCS forces count:	RCS 力数量：
-RCS TWR readout	RCS TWR 读数
-Reference	参考
-resource	资源
-right	右
-Rotation	旋转
-Select mode	选择模式
-Show in Actions Screen	在操作界面中显示
-Show in Cargo Screen	在货物界面中显示
-Show in Crew Screen	在乘员界面中显示
-Show vector magnitudes	显示矢量大小
-Size	大小
-Thrust	推力
-Toggle part list window	切换部件列表窗口
-Toggle vessel tree window	切换飞行器树窗口
-Torque	扭矩
-total	总计
-Touchdown	着陆
-Use application launcher	使用应用程序启动器
-Use blizzy's toolbar	使用 blizzy 工具栏
-Vac	真空
-Wet mass	湿质量
-Debug Mode:	调试模式：
-Disable	禁用
-GBuffer Debug Mode:	GBuffer 调试模式：
--  Lon	-  经度
-Radius:	半径：
-before	之前
-- Speed:	- 速度：
-Additionally, some	此外，一些
-These mods are incompatible with Unity	这些模组与 Unity 不兼容
-altitude =	高度 =
-ASL:	ASL（海平面）：
-longitude =	经度 =
-Alt:	Alt：
-Coast Stage:	滑行级：
-Delays:	延迟：
-Distance:	距离：
-Early Shutoff Stage:	提前关机级：
-Exported as	导出为
-Index	索引
-Last Stage:	最后一级：
-Lat	纬度
-latitude =	纬度 =
-m - ETA:	m - 预计到达：
-m Pe >	m 近地点 >
-MechJeb module	MechJeb 模块
-MechJeb Unstable Ignitions: preventing ignition in state:	MechJeb 不稳定点火：正在阻止在状态中点火：
-Min ∆v:	最小 ∆v：
-post:	后：
-pre:	前：
-Routes for	路线用于
-Spinup lead time:	启动提前时间：
-Spinup stage:	启动分级：
-Ullage lead time:	沉底提前时间：
-Unguided Stages:	无制导分级：
-Added Data	已添加数据
-Adding Data	正在添加数据
-ALL	全部
-An error occurred attempting to capture science	尝试采集科学数据时发生错误
-Checking Data	正在检查数据
-Checking Look At	正在检查视线目标
-Data Added	数据已添加
-Err:	错误：
-Filling drive with all the juicy science	用所有可用的科学数据填充驱动器
-Filling drive with non ScienceConverter and Command parts (where crewcapacity > 0) science only	仅用非 ScienceConverter 与指令舱部件（crewcapacity > 0）的科学数据填充驱动器
-Gather Science complete	科学数据收集完成
-Got data	已获取数据
-Got experiment	已获取实验
-Got subject	已获取对象
-Hit Planet	击中行星
-Incrementing stored val	正在递增存储值
-LookingAt	正在观测
-Missing _TooltipStyle definition, cannot draw tooltips	缺少 _TooltipStyle 定义，无法绘制工具提示
-Removing Data from source	正在从来源移除数据
-Saving to File	正在保存到文件
-Select Target	选择目标
-Space Telescope	太空望远镜
-Taking Picture	正在拍照
-TeleScope	望远镜
-Unable to find experiment TarsierSpaceTech.SpaceTelescope, Are you missing a config file? Report on forums.	无法找到实验 TarsierSpaceTech.SpaceTelescope，是否缺少配置文件？请在论坛反馈。
-Incorrect VesselModuleSave Installation	VesselModuleSave 安装不正确
-Incorrect NASA CountDown Clock Installation	NASA CountDown Clock 安装不正确
-Init	初始化
-Launched	已发射
-Sequence	序列
-Clearing config file...	正在清除配置文件……
-Creating new config...	正在创建新配置……
-Error creating config	创建配置时出错
-Incorrect Trajectories Installation	Trajectories 安装不正确
-Loading settings	正在加载设置
-New config created	已创建新配置
-No config file exists	配置文件不存在
-patchedConicsSolver is null, Skipping.	patchedConicsSolver 为空，跳过。
-WARNING: trajectory prediction stopped, too many iterations	警告：轨迹预测已停止，迭代次数过多
-A Kerbal with repair skills (e.g. engineer, mechanic) must be on board to reconfigure modules!	船上必须有一名具备维修技能的 Kerbal（如工程师、机械师）才能重新配置模块！
-Ground tether attached!	地面系留已连接！
-Ground tether released!	地面系留已释放！
-Missing resources to change module:	更换模块所需资源不足：
-Must be landed for ground tether to operate!	必须着陆才能使用地面系留！
-Only Kerbals with repair skills (e.g. engineers, mechanics) can reconfigure modules!	只有具备维修技能的 Kerbal（如工程师、机械师）才能重新配置模块！
-Only Kerbals with repair skills (engineers, mechanics) can perform EVA Maintenance!	只有具备维修技能的 Kerbal（工程师、机械师）才能执行 EVA 维护！
-Reconfiguration from	重新配置来源
-RepairSkill	维修技能
-ReplacementParts	替换零件
-Swapping Resources..	正在交换资源..
-You can only scrap parts without child parts	只能拆解没有子部件的部件
-You perform routine maintenance...	你执行了例行维护……
-not yet implemented	尚未实现
-Receive Data	接收数据
-Receiveing Data ...	正在接收数据……
-Run	运行
-starting settings	初始设置
-Vessel	飞行器
-All Input Locks Cleared	所有输入锁定已清除
-be changed in the stock settings window, under the Click-Through-Blocker tab	在原版设置窗口中，于“点击穿透阻止器”标签页下更改
-Click Through Blocker Focus Setting	点击穿透阻止器焦点设置
-Focus-Follows-Click	焦点跟随点击
-Focus-Follows-Mouse	焦点跟随鼠标
-Focus-Follows-Mouse, meaning that the focus was on whatever window the mouse was	焦点跟随鼠标，即焦点位于鼠标所在的窗口
-Incorrect ClickThroughBlocker Installation	ClickThroughBlocker 安装不正确
+name	新工具栏按钮索引:
+new toolbarbutton index:	无碰撞
+no force module	无施力模块
+no such fuel tank setup	无此燃料箱设置
+noClip	未设置
+none	无
+normal bias	法线偏移
+normalizedSpeed:	归一化速度：
+normalizedTime:	归一化时间：
+not set	空
+null	已打开
+opened	部件名
+out of	 / 
 over.  This release provides a new model of Focus-Follows-Click, which means that	。此版本提供了新的“焦点跟随点击”模式，即
-Save as global default for all new saves	保存为所有新存档的全局默认
-This window will only appear once to offer the choice of focus model.  It can always	此窗口只会出现一次，用于选择焦点模式。它始终可以
-Universal IMGUI click-through blocking (covers mods that don't use CTB)	通用 IMGUI 点击穿透阻止（覆盖不使用 CTB 的模组）
-Up until this release, the Click Through Blocker (CTB) has used a model of	在此版本之前，点击穿透阻止器 (CTB) 一直使用以下模式
-won't leave the window without clicking outside the window	不点击窗口外部就不会离开该窗口
-you will need to click on a window for that window to have the focus, and the focus	你需要点击某个窗口才能让该窗口获得焦点，且焦点
-Add alarms to KAC	向 KAC 添加警报
-altitude	高度
-Altitude:	高度：
-and then select from the options listed at the bottom	然后从底部列出的选项中选择
-Apoapsis	远地点
-Apoapsis:	远地点：
-Atm	大气
-Atm:	大气：
-Clear all nodes	清除所有节点
-Create Maneuver Node at Ap	在远地点创建机动节点
-Create Maneuver Node at Pe	在近地点创建机动节点
-Creates a maneuver node to put the current vessel into the resonant orbit	创建一个机动节点，使当前飞行器进入共振轨道
-Current Ap (<<1>>)	当前远地点 (<<1>>)
-Current Pe (<<1>>)	当前近地点 (<<1>>)
-Dive orbit	俯冲轨道
-Enable occlusion modifiers for vacuum and atmospheres	为真空和大气启用遮挡修正
-Execute maneuver	执行机动
-Gigameters	十亿米
-Incorrect <<1>> Installation	<<1>> 安装不正确
-Injection Δv:	注入 Δv：
-Kilometers	千米
-LOS Length:	视线长度：
-Megameters	兆米
-Meters	米
-Minimum LOS orbit (<<1>>)	最小视线轨道 (<<1>>)
-Number of satellites:	卫星数量：
-Occlusion atmospheric modifier	遮挡大气修正系数
-Occlusion modifiers	遮挡修正系数
-Occlusion vacuum modifier	遮挡真空修正系数
-Orbital altitude	轨道高度
-Orbital Maneuver	轨道机动
-Orbital Period:	轨道周期：
-Periapsis	近地点
-Periapsis:	近地点：
-Planetary Body Selection	天体选择
-Put carrier craft into resonant orbit	将母船送入共振轨道
-Resonant Orbit	共振轨道
-Resonant Orbit Calculator	共振轨道计算器
-Save Window	保存窗口
-Saves an image of the window to the Screenshots directory	将窗口截图保存到 Screenshots 目录
-Select Planet	选择星球
-Selected planet:	已选星球：
-Set Carrier orbit to be lower than target orbit	将母船轨道设为低于目标轨道
-Set the altitude to have the satellites be in a geosynchronous orbit	将高度设为使卫星处于同步轨道
-Set the altitude to the current vessel's Ap	将高度设为当前飞行器的 Ap
-Set the altitude to the current vessel's Pe	将高度设为当前飞行器的 Pe
-Set the altitude to the minimum altitude possible to maintain a Line of Sight	将高度设为维持视线所需的最低高度
-Show LOS lines	显示视线连线
-Show the Line Of Sight lines	显示视线连线
-Synchronous orbit (<<1>>)	同步轨道 (<<1>>)
-To use Kerbal Alarm Clock (KAC), select either Current Ap or Current Pe,	要使用 Kerbal Alarm Clock (KAC)，请选择“当前 Ap”或“当前 Pe”，
-Total number of satellites to arrange	要排布的卫星总数
-Units	单位
-Units:	单位：
-Vac:	真空：
-<Press any key>	<按任意键>
-Default Jetpack Power:	默认喷气背包功率：
-Default Precision Jetpack Power:	默认精确喷气背包功率：
-EVA Enhancements - Settings	EVA Enhancements - 设置
-Hide Navball markers on EVA	EVA 时隐藏导航球标记
-Incorrect EVA Enhancements Continued Installation	EVA Enhancements Continued 安装不正确
-NavBall follows Kerbal	导航球跟随宇航员
-Pitch Down	俯仰向下
-Pitch Up	俯仰向上
-Precision Controls: Disabled	精细控制：已禁用
-Precision Controls: Enabled	精细控制：已启用
-Roll Left	左滚转
-Roll Right	右滚转
--- Danger Zone -- (no confirmation and no undo)	-- 危险区域 --（无确认，无法撤销）
+p. mass	部件质量
+part	部件
+part animator(s).	部件动画器。
+patchedConicsSolver is null, Skipping.	patchedConicsSolver 为空，跳过。
+path:	路径：
+percentAmount <= 0	周期(小时)
+perlin	持久
+physics	物理
+picking waypoint	PID
+pid	俯仰速率限制
+pitch rate limit	中继功率
+preload	预加载
+preset	完成后按“确定”)
+press the OK button when complete)	压力
+priorityList length:	生产统计
+prospectResources count:	快速
+quick	无线电文字按钮
+radio_text_button	随机
+random	随机模式缠斗几率
+rate	速率
+red	参考变换
+reflections_delay	反射强度
+reflections_level	退款
+refund	重置配平
+removed from beepsource_list	已从 beepsource_list 移除
+resonance_q	主矿脉后资源量:
+resource	资源
+resourceAmount after motherlode:	资源量:
+resourceAmount:	资源索引:
+resourceIndex:	收起事件
+reverb_delay	混响强度
+reverb_level	混响预设
+reverb_preset	滚转速率限制
+right	右
+roll rate limit	房间高频
+room	房间
+room_hf	房间低频
+room_lf	巡视器.科学点.潜在科学值:
+rover.scienceSpot.potentialScience:	安全状态
+save	保存纹理事件
+saved to disk.	场景:
+scene:	场景启用指示器
+sciData (post scalar):	科学
+science	科学增益:
+science gain:	科学衰减标量:
+scienceDecayScalar:	科学距离标量加成:
+scienceDistanceScalarBoost:	科学已传输
+science_sent	副伞开伞限制
+seat controls	座位控制
+seconds	选择纹理
+select a Texture	选择预设
+select preset	已选择。
+selected.	可出售
+selectedIndex	选中索引
+separated_	阴影值
+settings	设置
+shadows configuration	阴影配置
+show models	显示附近实例
+show nearby instances	显示附近地图
+show nearby maps	显示指示器
+slope	排序键
+sortKey	生成新地图
+spawn new map	状态背景
+speed:	速度：
+stdText	str yep_yep:
+str yep_yep:	strikeData:
+strikeData:	successTargetNumber:
+successTargetNumber:	目标
+target	techNodeUnlocked
+test	测试
+time:	时间：
+tip	提示
+title	titleLabel
+tkm	至 ROC
+to ROC	筛选条件：
 to defaults	为默认值
-Add Custom POI	添加自定义 POI
-Align Spheres	对齐球体
-Blue	蓝色
-Draw Circles	绘制圆圈
-Draw Spheres	绘制球体
-Enable Debug Level Logging	启用调试级日志
-Focused Body Only	仅聚焦天体
-Force Refresh	强制刷新
-Green	绿色
-Misc	杂项
-OrbitPOInts Options	OrbitPOInts 选项
-Red	红色
-Remove All Custom POIs	移除所有自定义 POI
-Reset All Standard POIs to defaults	将所有标准 POI 重置为默认值
-Reset POIs for	重置以下天体的 POI：
-Show Options	显示选项
-Show POI Max Terrain Altitude On Atmospheric Bodies	在有大气层的天体上显示 POI 最大地形高度
-Use Opaque Background Override	使用不透明背景覆盖
-Use Skin	使用皮肤
-Use Top Right Close Button	使用右上角关闭按钮
-Add Resource	添加资源
-Alarm Sound	警报音效
-Descent Warning:	下降警告：
-Incorrect Danger Alerts Installation	Danger Alerts 安装不正确
-Play Alarm	播放警报
-Preview	预览
-Save and Close	保存并关闭
-Sound Selection	音效选择
-Stop	停止
-Stop Alarm	停止警报
-Incorrect Ship Effects Continued Installation	Ship Effects Continued 安装不正确
-Records	记录
-Records:	记录：
-Accept:	接受：
-Advance:	推进：
-Agency Description:	机构描述：
-Agency Mentalities:	机构风格：
-Agent:	代理人：
-Briefing:	简报：
-Cancel contract?	取消合同？
-CapCom Settings	CapCom 设置
-CC Refresh	CC 刷新
-Completed	已完成
-Completion:	完成：
-Contract:	合同：
-Currently Active Contracts:	当前进行中的合同：
-Currently Offered Contracts:	当前提供的合同：
-Decline	拒绝
-Decline contract?	拒绝合同？
-Decline:	拒绝：
-Failure:	失败：
-Hide Mission Briefing Text	隐藏任务简报文本
-Hide Mission Notes	隐藏任务备注
-Mission Deadline:	任务截止期限：
-Mission Duration:	任务时长：
-Mission Notes:	任务备注：
-Multi Select:	多选：
-Objectives:	目标：
-Offer Expires:	提供到期：
-Offered	已提供
-Point Of Interest Records	兴趣点记录
-Press any key to reassign:	按下任意键重新分配：
-Record	记录
-Refresh Contract Configurator Offers	刷新 Contract Configurator 提供的合同
-Rewards:	奖励：
-Scroll Down:	向下滚动：
-Scroll Left:	向左滚动：
-Scroll Right:	向右滚动：
-Scroll Up:	向上滚动：
-Settings Menu	设置菜单
-Size -	减小尺寸
-Size +	增大尺寸
-Sort By Agency	按机构排序
-Sort By Difficulty	按难度排序
-Sort By Rewards	按奖励排序
-Sort By Target Body	按目标天体排序
-Sort By Time Remaining	按剩余时间排序
-Sort Options:	排序选项：
-Standard Records	标准记录
-Toolips	工具提示
-Total Rewards:	奖励总计：
-Use Keyboard Shortcuts	使用键盘快捷键
-Use Stock App Launcher	使用原版应用启动器
-Warn on Cancel	取消时警告
-Warn on Decline	拒绝时警告
-Window Scale:	窗口缩放：
+to filter on:	以重新配置转换器。
+to reconfigure the converter.	以保存！
+to save!	toRevert:
+to work, and you are running version	才能工作，而您当前运行的版本为
+toRevert:	toggleButton
+too far away to store your craft!	toolbar-blue
+toolbar-blue	已转移至
+total	总计
+transfered to	true
+true	类型
+type	unknownExperiment.msg
+unknownExperiment.msg	无限
+upgradeTech called:	upgradeText
+url	useTargetBodyForReward
+vessel.id.ToString() =	可见光
+visual	警告
+volume:	音量：
+warning	waypointManager
+waypoint	航点
+wet mass	wet_mix
+wet_mix	wet_mix_1
+wet_mix_1	wet_mix_2
+wet_mix_2	wet_mix_3
+wet_mix_3	位置
+where	宽、高：
+width, height:	windowMode
+window_header	window_main
+window_main	含衰减：
+with	与
+with decay:	含距离标量增益、衰减与天体标量：
+with distanceScalarBoost & decay & bodyScalar:	含飞行全局索引
+with flight global index	偏航速率限制
+won't leave the window without clicking outside the window	不点击窗口外部就不会离开该窗口
+yaw rate limit	黄色
+yellow	yyyy-MM-dd_hh-mm-ss
+you will need to click on a window for that window to have the focus, and the focus	你需要点击某个窗口才能让该窗口获得焦点，且焦点
+yyyy-MM-dd_hh-mm-ss	缩放系数
+| Max:	▼ 预设 ▼
+▲ Collapse Group	▲ 折叠组
+▼ Expand Group	▼ 展开组
+▼ PRESETS ▼	▼ 所选类别：

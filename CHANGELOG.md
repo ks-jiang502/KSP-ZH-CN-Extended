@@ -1,5 +1,15 @@
 # 更新日志
 
+## v1.2.0 — 2026-11-26
+
+适配模组大更新后的全量重新汉化。
+
+- 游戏模组从 5,740 个 cfg / 70 个 DLL 增加到 12,566 个 cfg / 141 个 DLL、41 个模组目录；新增 Bluedog_DB、FASA、ModularLaunchPads、Tantares 系列、WildBlueIndustries、CoatlAerospace、HabTech2、Cormorant Aeronology、TundraExploration、DMagic、ContractPacks、SCANsat 等，UmbraSpaceIndustries 与 Interkosmos 已被移除。
+- 重新审计并翻译 **5,803 条**配置文本，生成 **5,490 条**中文词条、**5,289 条**英文词条，覆盖 **2,561 个部件**、**449 个部件变体**、**270 个配置节点**，共 **30 个补丁文件**。
+- 运行时词库重建为 **2,359 条**（保留仍存在的旧词条 793 条，新增 1,566 条）。
+- 修复变体补丁在 ModuleManager 补丁文件（`@PART[name] { … }`）中 PART 名为空、生成 `@PART[]` 的问题；修复 `:NEEDS[Cormorant Aeronology]` 含空格导致的 61 条 ModuleManager 语法错误（改用 `?` 通配）。
+- 版本号升至 1.2.0。
+
 ## v1.1.2 — 2026-11-26
 
 - MechJeb2 自带中文界面，移除其 96 条运行时词条，避免重复翻译与潜在冲突；词库由 1394 条减为 1298 条。

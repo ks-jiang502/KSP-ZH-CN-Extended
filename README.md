@@ -6,8 +6,8 @@
 
 本模组为 KSP 1.12.x 的一批常用插件补充简体中文翻译，分两层：
 
-1. **配置层（v1.0.0）**：Umbra Space Industries（USI）、Interkosmos、VABOrganizer、KIS/KAS、James Webb 望远镜、kOS、SquadExpansion 变体等部件的名称、描述、实验与资源。
-2. **运行时 DLL 层（v1.1.2）**：Harmony 插件 `KSPZHCN.dll` 在渲染前替换各模组程序集里硬编码的界面文字（窗口标题、按钮、提示、状态栏等），词库位于 `DllLocalization/zh-cn.txt`。
+1. **配置层（v1.2.0）**：Bluedog_DB、FASA、ModularLaunchPads、Tantares 系列、WildBlueIndustries、CoatlAerospace、HabTech2、Cormorant Aeronology、TundraExploration、DMagic、ContractPacks、SCANsat 等 41 个模组目录的部件名称、描述、厂商、实验、资源、机构与变体。
+2. **运行时 DLL 层（v1.2.0）**：Harmony 插件 `KSPZHCN.dll` 在渲染前替换各模组程序集里硬编码的界面文字（窗口标题、按钮、提示、状态栏等），词库位于 `DllLocalization/zh-cn.txt`。
 
 - 不修改任何原模组文件，配置层全部通过 `ModuleManager` 补丁与独立 `Localization` 文件实现
 - 与 `0000Tinygrox_CNPatches` 等现有汉化包共存，不覆盖、不冲突
@@ -21,7 +21,7 @@
 3. 启动游戏，在 **Settings → Language** 中选择 **简体中文 (zh-cn)**。
 4. 进入 VAB/SPH 或载入存档，部件名称、描述、实验名称、资源名称等即显示中文。
 
-实机效果（v1.1.1，插件加载后的主菜单）：
+实机效果（插件加载后的主菜单）：
 
 ![主菜单](docs/screenshots/main-menu-zh.png)
 
@@ -35,8 +35,9 @@ GameData/
     │   ├── zh-cn.cfg
     │   └── en-us.cfg
     ├── Patches/
-    │   ├── UmbraSpaceIndustries.cfg
-    │   ├── Interkosmos.cfg
+    │   ├── Bluedog_DB.cfg
+    │   ├── Tantares.cfg
+    │   ├── WildBlueIndustries.cfg
     │   └── ...
     ├── Plugins/
     │   └── KSPZHCN.dll
@@ -44,7 +45,7 @@ GameData/
         └── zh-cn.txt
 ```
 
-## DLL 界面汉化（v1.1.2）
+## DLL 界面汉化（v1.2.0）
 
 `Plugins/KSPZHCN.dll` 是独立 Harmony 插件，启动时读取 `DllLocalization/zh-cn.txt`，对 77 个方法注册前缀补丁：
 
@@ -53,10 +54,10 @@ GameData/
 - `ScreenMessages.PostScreenMessage` 的屏幕提示
 - KSP 对话框 `DialogGUILabel`、`DialogGUIButton`、`MultiOptionDialog`
 
-词库为 `原文<TAB>译文` 的 UTF-8 文本，共 **1298 条**，来自对 **56 个模组 DLL** 的 IL 分析（1879 处界面字符串，去重后 1664 条）。启动后可在 `KSP.log` 中确认：
+词库为 `原文<TAB>译文` 的 UTF-8 文本，共 **2,359 条**，来自对本次更新后模组 DLL 的 IL 分析。启动后可在 `KSP.log` 中确认：
 
 ```
-[KSPZHCN] dictionary loaded: 1298 entries
+[KSPZHCN] dictionary loaded: 2359 entries
 [KSPZHCN] harmony patches: ok=77 fail=0
 ```
 
@@ -68,34 +69,37 @@ GameData/
 
 **v1.1.1 卡顿修复**：v1.1.0 的忽略大小写查找使用 `StringComparer.OrdinalIgnoreCase`，Mono 运行时对部分界面字符串会在 `TextInfo.GetInvariantCaseInsensitiveHashCode` 内抛 `NullReferenceException`，被 MechJeb / RemoteTech 等每个控件每帧触发，造成飞行界面严重卡顿。v1.1.1 改为预构建小写词表 + 序号比较，并移除了可变缓存、给所有前缀加了异常兜底，词库加载后只读、线程安全。
 
-## 覆盖范围（v1.1.2）
+## 覆盖范围（v1.2.0）
 
-配置层共 **780 条**中文词条、**320 个部件**、**46 个部件变体**、**14 个配置节点**，覆盖 **20 个模组目录**：
+配置层共 **5,803 条**待译文本，生成 **5,490 条**中文本地化词条、**5,289 条**英文本地化词条，为 **2,561 个部件**、**449 个部件变体**、**270 个配置节点**写入中文，共 **30 个补丁文件**、覆盖 **41 个模组目录**：
 
-| 模组 | 词条/补丁 |
-| --- | --- |
-| UmbraSpaceIndustries（USI 全家桶） | 275 条标签 + 473 个部件 + 20 个变体 + 12 个节点 |
-| Interkosmos | 191 条标签 |
-| VABOrganizer | 54 条标签 |
-| KIS | 19 条标签 + 1 个变体 |
-| JamesWebb | 18 个部件 |
-| kOS | 17 个部件 |
-| KAS | 10 条标签 |
-| 000_USITools | 6 条标签 |
-| 002_CommunityPartsTitles | 5 条标签 |
-| SquadExpansion | 25 个变体 |
-| JSI | 6 个部件 |
-| SimpleConstruction | 4 条标签 |
-| KerbalTelemetry | 3 个部件 |
-| ASET | 2 个节点 |
-| CommunityResourcePack | 2 条标签 |
-| ContractPacks | 2 个节点 |
-| KSP_Proximity | 2 个部件 |
-| RemoteTech | 2 个部件 |
-| FreeIva | 1 条标签 |
-| Squad | 1 个部件 |
+| 模组 | 标签 | 部件 | 变体 | 节点 |
+| --- | --- | --- | --- | --- |
+| Bluedog_DB | 2768 | 1438 | 18 | 58 |
+| FASA | 404 | 200 | 0 | 8 |
+| ModularLaunchPads | 458 | 233 | 0 | 7 |
+| WildBlueIndustries | 318 | 155 | 54 | 35 |
+| CoatlAerospace | 306 | 145 | 0 | 15 |
+| HabTech2 | 234 | 100 | 2 | 43 |
+| Cormorant Aeronology | 123 | 60 | 0 | 1 |
+| TundraExploration | 101 | 51 | 4 | 3 |
+| DMagicOrbitalScience | 84 | 36 | 0 | 18 |
+| Eisenhower-Astronautics | 78 | 38 | 0 | 1 |
+| JNH | 71 | 38 | 0 | 0 |
+| TantaresSP | 67 | 25 | 72 | 3 |
+| KerbalReusabilityExpansion | 57 | 41 | 0 | 0 |
+| TantaresRecolors | 48 | 18 | 122 | 0 |
+| Tantares | 41 | 36 | 59 | 5 |
+| htRobotics | 28 | 16 | 9 | 0 |
+| Benjee10_sharedAssets | 26 | 10 | 0 | 0 |
+| Corvus | 22 | 0 | 0 | 0 |
+| KIU | 30 | 17 | 44 | 0 |
+| LonesomeRobots | 483 | 0 | 0 | 0 |
+| 其余 21 个模组 | 318 | 30 | 67 | 85 |
 
-运行时 DLL 层（`DllLocalization/zh-cn.txt`，1298 条）覆盖的界面字符串较多的模组包括：Chatterer、FreeIva、ResonantOrbitCalculator、WaypointManager、FinalFrontier、KolonyTools、kOS、KIS、ContractConfigurator、RCSBuildAid、RemoteTech、TarsierSpaceTech、Trajectories、USI_WOLF、OrbitPOInts、Konstruction、DPAI、Firespitter、GPWS、B9PartSwitch、ScienceAlert 等 56 个程序集。
+本次更新已移除对已卸载的 UmbraSpaceIndustries、Interkosmos 等模组的条目，旧版词条不再保留。
+
+运行时 DLL 层（`DllLocalization/zh-cn.txt`，2,359 条）覆盖的界面字符串主要来自 Chatterer、FreeIva、ResonantOrbitCalculator、WaypointManager、FinalFrontier、KolonyTools、kOS、KIS、ContractConfigurator、RCSBuildAid、RemoteTech、TarsierSpaceTech、Trajectories、USI_WOLF、OrbitPOInts、Konstruction、DPAI、Firespitter、GPWS、B9PartSwitch、ScienceAlert 等程序集。MechJeb2 自带中文界面，其条目已移除。
 
 ## 已知限制
 
