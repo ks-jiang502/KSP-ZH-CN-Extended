@@ -2,6 +2,8 @@
 
 **坎巴拉太空计划 · 中文扩展汉化包**（Kerbal Space Program Simplified Chinese Localization Extension）
 
+仓库：<https://github.com/ks-jiang502/KSP-ZH-CN-Extended> · 下载：<https://github.com/ks-jiang502/KSP-ZH-CN-Extended/releases>
+
 本模组为 KSP 1.12.x 的一批常用插件补充简体中文翻译，分两层：
 
 1. **配置层（v1.0.0）**：Umbra Space Industries（USI）、Interkosmos、VABOrganizer、KIS/KAS、James Webb 望远镜、kOS、SquadExpansion 变体等部件的名称、描述、实验与资源。
