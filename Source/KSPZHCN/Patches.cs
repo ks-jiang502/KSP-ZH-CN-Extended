@@ -93,9 +93,9 @@ namespace KSPZHCN
             TryCtor(h, typeof(GUIContent), new[] { typeof(string), typeof(Texture) }, "P0");
             TryCtor(h, typeof(GUIContent), new[] { typeof(string), typeof(string) }, "P0");
             TryCtor(h, typeof(GUIContent), new[] { typeof(string), typeof(Texture), typeof(string) }, "P0");
-            TryMethod(h, typeof(GUIContent), "Temp",
-                new[] { typeof(string) },
-                "P0", BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Static);
+            // GUIContent.Temp is intentionally NOT patched: the GUI/GUILayout
+            // string overloads below already translate the text, and Temp is the
+            // hottest IMGUI path (called for every label/button every frame).
             PropertySetter(h, typeof(GUIContent), "text", "P0");
             PropertySetter(h, typeof(GUIContent), "tooltip", "P0");
         }

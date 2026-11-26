@@ -8,15 +8,46 @@ namespace KSPZHCN
     /// <summary>
     /// Dictionary-based UI string translator. No Unity dependencies.
     /// Lookups are read-only after Load, so they are safe to call from any thread.
-    /// Case-insensitive matching uses a prebuilt lowercase table instead of
-    /// StringComparer.OrdinalIgnoreCase, whose Mono implementation can throw
-    /// NullReferenceException inside TextInfo.GetInvariantCaseInsensitiveHashCode
-    /// for some UI strings (observed with MechJeb / RemoteTech labels).
+    /// Case-insensitive matching uses a custom ASCII comparer: it avoids both
+    /// Mono's buggy StringComparer.OrdinalIgnoreCase path (which can throw
+    /// NullReferenceException inside TextInfo.GetInvariantCaseInsensitiveHashCode)
+    /// and the per-call string allocations of ToLowerInvariant.
     /// </summary>
     public static class Translator
     {
+        sealed class AsciiIgnoreCaseComparer : IEqualityComparer<string>
+        {
+            public bool Equals(string a, string b)
+            {
+                if (ReferenceEquals(a, b)) return true;
+                if (a == null || b == null || a.Length != b.Length) return false;
+                for (int i = 0; i < a.Length; i++)
+                {
+                    char ca = a[i], cb = b[i];
+                    if (ca == cb) continue;
+                    if (ca >= 'A' && ca <= 'Z') ca = (char)(ca + 32);
+                    if (cb >= 'A' && cb <= 'Z') cb = (char)(cb + 32);
+                    if (ca != cb) return false;
+                }
+                return true;
+            }
+
+            public int GetHashCode(string s)
+            {
+                if (s == null) return 0;
+                int h = 0;
+                for (int i = 0; i < s.Length; i++)
+                {
+                    char c = s[i];
+                    if (c >= 'A' && c <= 'Z') c = (char)(c + 32);
+                    h = h * 31 + c;
+                }
+                return h;
+            }
+        }
+
         static readonly Dictionary<string, string> exact = new Dictionary<string, string>(StringComparer.Ordinal);
-        static readonly Dictionary<string, string> lower = new Dictionary<string, string>(StringComparer.Ordinal);
+        static readonly Dictionary<string, string> ci = new Dictionary<string, string>(new AsciiIgnoreCaseComparer());
 
         public static bool Enabled = true;
         public static bool Verbose = false;
@@ -26,7 +57,7 @@ namespace KSPZHCN
         public static void Clear()
         {
             exact.Clear();
-            lower.Clear();
+            ci.Clear();
         }
 
         public static void Load(string path)
@@ -48,12 +79,7 @@ namespace KSPZHCN
                 string v = Unescape(raw.Substring(tab + 1));
                 if (k.Length == 0) continue;
                 exact[k] = v;
-                try
-                {
-                    string lk = k.ToLowerInvariant();
-                    if (!lower.ContainsKey(lk)) lower[lk] = v;
-                }
-                catch { }
+                if (!ci.ContainsKey(k)) ci[k] = v;
                 loaded++;
             }
             Util.Log("dictionary loaded: " + loaded + " entries");
@@ -72,47 +98,32 @@ namespace KSPZHCN
                 {
                     string trimmed = s.Trim();
                     if (trimmed.Length == 0) return s;
-                    if (trimmed.Length == n)
+                    if (trimmed.Length != n)
                     {
-                        return LookupCI(trimmed, s);
+                        if (exact.TryGetValue(trimmed, out r))
+                        {
+                            int lead = s.IndexOf(trimmed, StringComparison.Ordinal);
+                            if (lead < 0) return s;
+                            return s.Substring(0, lead) + r + s.Substring(lead + trimmed.Length);
+                        }
+                        if (ci.TryGetValue(trimmed, out r))
+                        {
+                            int lead = s.IndexOf(trimmed, StringComparison.Ordinal);
+                            if (lead < 0) return s;
+                            return s.Substring(0, lead) + r + s.Substring(lead + trimmed.Length);
+                        }
+                        return s;
                     }
-                    if (exact.TryGetValue(trimmed, out r))
-                    {
-                        int lead = s.IndexOf(trimmed, StringComparison.Ordinal);
-                        if (lead < 0) return s;
-                        return s.Substring(0, lead) + r + s.Substring(lead + trimmed.Length);
-                    }
-                    if (lower.TryGetValue(Key(trimmed), out r))
-                    {
-                        int lead = s.IndexOf(trimmed, StringComparison.Ordinal);
-                        if (lead < 0) return s;
-                        return s.Substring(0, lead) + r + s.Substring(lead + trimmed.Length);
-                    }
+                    if (ci.TryGetValue(trimmed, out r)) return r;
                     return s;
                 }
-                return LookupCI(s, s);
+                if (ci.TryGetValue(s, out r)) return r;
+                return s;
             }
             catch
             {
                 return s;
             }
-        }
-
-        static string LookupCI(string key, string original)
-        {
-            string r;
-            if (lower.TryGetValue(Key(key), out r)) return r;
-            return original;
-        }
-
-        /// <summary>Lowercase only when needed, to avoid allocations on every miss.</summary>
-        static string Key(string s)
-        {
-            for (int i = 0; i < s.Length; i++)
-            {
-                if (char.IsUpper(s[i])) return s.ToLowerInvariant();
-            }
-            return s;
         }
 
         static string Unescape(string s)
